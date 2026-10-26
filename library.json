@@ -1,0 +1,2322 @@
+{
+ "insights": [
+  {
+   "id": "I001",
+   "headline": "Social ads drive buying decisions",
+   "finding": "Gen Z consumers are significantly more likely than older groups to find social media ads and reviews influential in purchase choices.",
+   "number": "63%",
+   "source": "Deloitte Insights, 2025 Digital Media Trends",
+   "year": 2025,
+   "theme": "shopping",
+   "quality": "A"
+  },
+  {
+   "id": "I002",
+   "headline": "Social media ads outpace cable relevance",
+   "finding": "A majority of Gen Z and Millennial consumers say social media ads are more relevant to them than streaming or cable ads.",
+   "number": "54%",
+   "source": "Deloitte Insights, 2025 Digital Media Trends",
+   "year": 2025,
+   "theme": "digital",
+   "quality": "A"
+  },
+  {
+   "id": "I003",
+   "headline": "Social content outshines traditional film and TV",
+   "finding": "Most Gen Z respondents consider social media content more relevant to their lives than traditional TV shows and movies.",
+   "number": "56%",
+   "source": "Deloitte Insights, 2025 Digital Media Trends",
+   "year": 2025,
+   "theme": "formats",
+   "quality": "A"
+  },
+  {
+   "id": "I004",
+   "headline": "Gen Z spends less time watching TV",
+   "finding": "Gen Z spends 26% less time watching traditional TV and movies than the average consumer per day.",
+   "number": "26% less",
+   "source": "Deloitte Insights, 2025 Digital Media Trends",
+   "year": 2025,
+   "theme": "trends",
+   "quality": "A"
+  },
+  {
+   "id": "I005",
+   "headline": "Instagram maintains strong adult reach",
+   "finding": "Half of US adults report using Instagram.",
+   "number": "50%",
+   "source": "Pew Research Center, Americans' Social Media Use 2025",
+   "year": 2025,
+   "theme": "social",
+   "quality": "A",
+   "flag": "All US adults, not Gen Z only."
+  },
+  {
+   "id": "I006",
+   "headline": "TikTok usage shows multi-year growth",
+   "finding": "TikTok adoption among US adults grew from 21% in 2021 to 37% in 2025.",
+   "number": "37%",
+   "source": "Pew Research Center, Americans' Social Media Use 2025",
+   "year": 2025,
+   "theme": "trends",
+   "quality": "A",
+   "flag": "All US adults, not Gen Z only."
+  },
+  {
+   "id": "I007",
+   "headline": "Reddit adoption expands among US adults",
+   "finding": "US adult usage of Reddit reached 26%, an 8-point increase over four years.",
+   "number": "26%",
+   "source": "Pew Research Center, Americans' Social Media Use 2025",
+   "year": 2025,
+   "theme": "social",
+   "quality": "A",
+   "flag": "All US adults, not Gen Z only."
+  },
+  {
+   "id": "I008",
+   "headline": "Young adults stand out on Instagram",
+   "finding": "Eight in ten US adults aged 18–29 use Instagram, far higher than older age groups.",
+   "number": "80%",
+   "source": "Pew Research Center, Americans' Social Media Use 2025",
+   "year": 2025,
+   "theme": "social",
+   "quality": "A",
+   "flag": "Ages 18–29: overlaps Gen Z but isn't the same cohort."
+  },
+  {
+   "id": "I009",
+   "headline": "Women lead Instagram usage",
+   "finding": "More than half of US women use Instagram compared with under half of men.",
+   "number": "55%",
+   "source": "Pew Research Center, Americans' Social Media Use 2025",
+   "year": 2025,
+   "theme": "social",
+   "quality": "A",
+   "flag": "All US women, not Gen Z only."
+  },
+  {
+   "id": "I010",
+   "headline": "Daily TikTok engagement among young adults",
+   "finding": "Roughly half of US 18–29-year-olds visit TikTok at least once a day.",
+   "number": "50%",
+   "source": "Pew Research Center, Americans' Social Media Use 2025",
+   "year": 2025,
+   "theme": "digital",
+   "quality": "A",
+   "flag": "Ages 18–29: overlaps Gen Z but isn't the same cohort."
+  },
+  {
+   "id": "I011",
+   "headline": "Pandora gains consideration among Gen Z",
+   "finding": "Pandora led quarterly consideration growth among US Gen Z adults after its creative launch with stylist Harry Lambert.",
+   "number": "+85.1%",
+   "source": "YouGov, Brands Rising Among Gen Z in the US in 2026",
+   "year": 2026,
+   "theme": "trends",
+   "quality": "A"
+  },
+  {
+   "id": "I012",
+   "headline": "Johnnie Walker expands youth consideration",
+   "finding": "Johnnie Walker recorded a large relative increase in consideration among legal-drinking-age Gen Z adults.",
+   "number": "+167.3%",
+   "source": "YouGov, Brands Rising Among Gen Z in the US in 2026",
+   "year": 2026,
+   "theme": "trends",
+   "quality": "A",
+   "flag": "Low relevance to a bag brand."
+  },
+  {
+   "id": "I013",
+   "headline": "OpenAI consideration surges among young adults",
+   "finding": "Consideration for OpenAI among US Gen Z adults more than doubled from Q1 to Q2 2026.",
+   "number": "22.1%",
+   "source": "YouGov, Brands Rising Among Gen Z in the US in 2026",
+   "year": 2026,
+   "theme": "digital",
+   "quality": "A",
+   "flag": "Low relevance to a bag brand."
+  },
+  {
+   "id": "I014",
+   "headline": "Claude gains Gen Z traction",
+   "finding": "Anthropic's Claude reached 28.1% consideration among US Gen Z adults after strong quarterly growth.",
+   "number": "28.1%",
+   "source": "YouGov, Brands Rising Among Gen Z in the US in 2026",
+   "year": 2026,
+   "theme": "digital",
+   "quality": "A",
+   "flag": "Low relevance to a bag brand."
+  },
+  {
+   "id": "I015",
+   "headline": "Willing to pay a premium for loyalty",
+   "finding": "A majority of Gen Z say they are willing to pay extra for brands they feel loyal to.",
+   "number": "64%",
+   "source": "Gen Z Consumer Behavior: Key Insights for 2026 (blog)",
+   "year": 2026,
+   "theme": "values",
+   "quality": "C",
+   "flag": "Blog source; original survey not identified."
+  },
+  {
+   "id": "I016",
+   "headline": "Mobile dominates Gen Z shopping",
+   "finding": "Nearly three quarters of Gen Z prefer shopping on smartphones over any other device.",
+   "number": "74%",
+   "source": "Gen Z Consumer Behavior: Key Insights for 2026 (blog)",
+   "year": 2026,
+   "theme": "shopping",
+   "quality": "C",
+   "flag": "Blog source; original survey not identified."
+  },
+  {
+   "id": "I017",
+   "headline": "Three hours a day on social",
+   "finding": "Gen Z spends an average of three hours a day on social media.",
+   "number": "3 hours/day",
+   "source": "Gen Z Consumer Behavior: Key Insights for 2026 (blog)",
+   "year": 2026,
+   "theme": "digital",
+   "quality": "C",
+   "flag": "Blog source; original survey not identified."
+  },
+  {
+   "id": "I018",
+   "headline": "Video-sharing platforms outpace traditional media",
+   "finding": "Over four in ten Gen Z adults spend two or more hours a day on video-sharing platforms like YouTube and TikTok.",
+   "number": "43%",
+   "source": "Attest, Gen Z Media Consumption 2026",
+   "year": 2026,
+   "theme": "formats",
+   "quality": "A"
+  },
+  {
+   "id": "I019",
+   "headline": "Live TV abandonment",
+   "finding": "More than a third of Gen Z watch no live television at all.",
+   "number": "38%",
+   "source": "Attest, Gen Z Media Consumption 2026",
+   "year": 2026,
+   "theme": "trends",
+   "quality": "A"
+  },
+  {
+   "id": "I020",
+   "headline": "Streaming commands willingness to pay",
+   "finding": "Over 80% of Gen Z adults are willing to pay for streaming video subscriptions.",
+   "number": "81%",
+   "source": "Attest, Gen Z Media Consumption 2026",
+   "year": 2026,
+   "theme": "shopping",
+   "quality": "A"
+  },
+  {
+   "id": "I021",
+   "headline": "News subscriptions rejected",
+   "finding": "Only 6% of Gen Z are willing to pay for news and magazine subscriptions.",
+   "number": "6%",
+   "source": "Attest, Gen Z Media Consumption 2026",
+   "year": 2026,
+   "theme": "values",
+   "quality": "A"
+  },
+  {
+   "id": "I022",
+   "headline": "YouTube leads daily usage",
+   "finding": "YouTube is the most used platform daily among Gen Z, ahead of Instagram and TikTok.",
+   "number": "63%",
+   "source": "Attest, Gen Z Media Consumption 2026",
+   "year": 2026,
+   "theme": "social",
+   "quality": "A"
+  },
+  {
+   "id": "I023",
+   "headline": "TikTok as primary news source",
+   "finding": "One in four Gen Z adults names TikTok as their primary news platform.",
+   "number": "25%",
+   "source": "Attest, Gen Z Media Consumption 2026",
+   "year": 2026,
+   "theme": "social",
+   "quality": "A"
+  },
+  {
+   "id": "I024",
+   "headline": "Comedy and memes top short-form preference",
+   "finding": "Two thirds of Gen Z prefer comedy and memes over all other short-form video categories.",
+   "number": "67%",
+   "source": "Attest, Gen Z Media Consumption 2026",
+   "year": 2026,
+   "theme": "formats",
+   "quality": "A"
+  },
+  {
+   "id": "I025",
+   "headline": "Interactive beats immersive",
+   "finding": "Gen Z engages far more with interactive polls and quizzes (46%) than with VR experiences (24%); AR filters 28%.",
+   "number": "46%",
+   "source": "Attest, Gen Z Media Consumption 2026",
+   "year": 2026,
+   "theme": "formats",
+   "quality": "A"
+  },
+  {
+   "id": "I026",
+   "headline": "AI-generated content triggers caution",
+   "finding": "72% of Gen Z hold negative or cautious views of AI-generated content (41% dislike \"AI slop\", 31% wary about truth online).",
+   "number": "72%",
+   "source": "Attest, Gen Z Media Consumption 2026",
+   "year": 2026,
+   "theme": "values",
+   "quality": "A"
+  },
+  {
+   "id": "I027",
+   "headline": "Social shapes food and beverage buying",
+   "finding": "Over half of Gen Z say social media content influences their food and beverage purchases.",
+   "number": "56%",
+   "source": "Attest, Gen Z Media Consumption 2026",
+   "year": 2026,
+   "theme": "shopping",
+   "quality": "A"
+  },
+  {
+   "id": "I028",
+   "headline": "Discovery starts on mobile",
+   "finding": "Nearly three quarters of Gen Z shoppers aged 18–24 start product discovery on mobile.",
+   "number": "73%",
+   "source": "TGM Research, Gen Z Online Shopping Trends 2026",
+   "year": 2026,
+   "theme": "shopping",
+   "quality": "A"
+  },
+  {
+   "id": "I029",
+   "headline": "Online shopping is routine",
+   "finding": "Almost a third of Gen Z shop online two to three times a month.",
+   "number": "31%",
+   "source": "TGM Research, Gen Z Online Shopping Trends 2026",
+   "year": 2026,
+   "theme": "shopping",
+   "quality": "A"
+  },
+  {
+   "id": "I030",
+   "headline": "YouTube leads product discovery",
+   "finding": "70% of Gen Z use YouTube for product discovery before purchase.",
+   "number": "70%",
+   "source": "Goat Agency, Gen Z Social Commerce 2025",
+   "year": 2025,
+   "theme": "shopping",
+   "quality": "B"
+  },
+  {
+   "id": "I031",
+   "headline": "TikTok leads in-app purchases",
+   "finding": "TikTok is the leading platform for direct in-app purchases among Gen Z social shoppers.",
+   "number": "40%",
+   "source": "Goat Agency, Gen Z Social Commerce 2025",
+   "year": 2025,
+   "theme": "shopping",
+   "quality": "B"
+  },
+  {
+   "id": "I032",
+   "headline": "TikTok Shop global volume doubles",
+   "finding": "TikTok Shop global sales volume is estimated to double year over year to $66B.",
+   "number": "$66B",
+   "source": "Goat Agency, Gen Z Social Commerce 2025",
+   "year": 2025,
+   "theme": "shopping",
+   "quality": "B"
+  },
+  {
+   "id": "I033",
+   "headline": "Monthly social commerce spend",
+   "finding": "Gen Z spends an average of $100–200 a month via social commerce.",
+   "number": "$100–200/month",
+   "source": "Goat Agency, Gen Z Social Commerce 2025",
+   "year": 2025,
+   "theme": "shopping",
+   "quality": "B"
+  },
+  {
+   "id": "I034",
+   "headline": "Screen breaks as self-care",
+   "finding": "Four in ten young consumers globally take deliberate breaks from screens to manage wellbeing.",
+   "number": "40%",
+   "source": "Mastercard, Gen Z and Gen Alpha shift from scrolling to shaping culture",
+   "year": 2026,
+   "theme": "values",
+   "quality": "A",
+   "flag": "Global sample, includes Gen Alpha."
+  },
+  {
+   "id": "I035",
+   "headline": "No single mainstream culture",
+   "finding": "Most Gen Z believe a single unified pop-culture mainstream no longer exists.",
+   "number": "majority",
+   "source": "Mastercard, Gen Z and Gen Alpha shift from scrolling to shaping culture",
+   "year": 2026,
+   "theme": "trends",
+   "quality": "A"
+  },
+  {
+   "id": "I036",
+   "headline": "AI accepted for career guidance",
+   "finding": "59% of Gen Z feel comfortable using AI chatbots for career advice.",
+   "number": "59%",
+   "source": "Mastercard, Gen Z and Gen Alpha shift from scrolling to shaping culture",
+   "year": 2026,
+   "theme": "digital",
+   "quality": "A"
+  },
+  {
+   "id": "I037",
+   "headline": "Gen Z sees itself as creators",
+   "finding": "Nearly two thirds of Gen Z identify as content creators building a personal brand.",
+   "number": "65%",
+   "source": "Mastercard, Gen Z and Gen Alpha shift from scrolling to shaping culture",
+   "year": 2026,
+   "theme": "social",
+   "quality": "A"
+  },
+  {
+   "id": "I038",
+   "headline": "Bad returns drive churn",
+   "finding": "60% of Gen Z shoppers have stopped buying from a brand after a bad return experience.",
+   "number": "60%",
+   "source": "Article: Gen Z is driving secondhand growth, but poor returns are costing brands loyalty",
+   "year": 2026,
+   "theme": "shopping",
+   "quality": "C"
+  },
+  {
+   "id": "I039",
+   "headline": "US resale market growth",
+   "finding": "The US secondhand apparel market is projected to reach about $78.8B by 2030.",
+   "number": "$78.8B",
+   "source": "Article: Gen Z is driving secondhand growth, but poor returns are costing brands loyalty",
+   "year": 2026,
+   "theme": "fashion",
+   "quality": "B"
+  },
+  {
+   "id": "I040",
+   "headline": "Gen Z leads secondhand buying",
+   "finding": "57.4% of Gen Z bought secondhand or resale apparel online in the past year.",
+   "number": "57.4%",
+   "source": "Article: Gen Z is driving secondhand growth, but poor returns are costing brands loyalty",
+   "year": 2026,
+   "theme": "fashion",
+   "quality": "C"
+  },
+  {
+   "id": "I041",
+   "headline": "Fast issue resolution expected",
+   "finding": "86.3% of Gen Z expect customer issues to be resolved within two to three days.",
+   "number": "86.3%",
+   "source": "Article: Gen Z is driving secondhand growth, but poor returns are costing brands loyalty",
+   "year": 2026,
+   "theme": "shopping",
+   "quality": "C"
+  },
+  {
+   "id": "I042",
+   "headline": "Almost all have a hobby",
+   "finding": "96% of young consumers take part in at least one regular hobby or passion.",
+   "number": "96%",
+   "source": "YPulse, Gen Z's 10 Biggest Hobbies",
+   "year": 2026,
+   "theme": "trends",
+   "quality": "B"
+  },
+  {
+   "id": "I043",
+   "headline": "CeraVe earned media from TikTok",
+   "finding": "CeraVe gained $30.1M in earned media value after expanding influencer work on TikTok.",
+   "number": "$30.1M EMV",
+   "source": "Case study: How CeraVe became a skincare staple for Gen Z influencers",
+   "year": 2021,
+   "theme": "shopping",
+   "quality": "B",
+   "flag": "Dated (2021)."
+  },
+  {
+   "id": "I044",
+   "headline": "Campus sampling drives trial",
+   "finding": "Chamberlain Coffee distributed 7,200 cans across 22 college campuses via student ambassadors.",
+   "number": "7,200 cans",
+   "source": "H/FC case study: Chamberlain Coffee campus sampling + UGC",
+   "year": 2026,
+   "theme": "shopping",
+   "quality": "B"
+  },
+  {
+   "id": "I045",
+   "headline": "Mainstream pop culture seen as past",
+   "finding": "91% of Gen Z respondents believe mainstream pop culture is a thing of the past.",
+   "number": "91%",
+   "source": "Marketing Dive, How Gen Z breaks marketing's cultural mold",
+   "year": 2022,
+   "theme": "trends",
+   "quality": "B",
+   "flag": "Dated (2022) and survey details unclear."
+  },
+  {
+   "id": "I046",
+   "headline": "Film and TV show humanity's dark side",
+   "finding": "94% of Gen Z surveyed agree that film and TV show the dark side of humanity.",
+   "number": "94%",
+   "source": "Marketing Dive, How Gen Z breaks marketing's cultural mold",
+   "year": 2022,
+   "theme": "values",
+   "quality": "B",
+   "flag": "Dated (2022). Your reports restate this as 'content must expose the dark side', which the source does not say."
+  },
+  {
+   "id": "I047",
+   "headline": "Gamer Girls cohort",
+   "finding": "The Gamer Girls subculture comprises over 3 million Gen Zers seeking inclusion in gaming spaces.",
+   "number": "3.1M",
+   "source": "Marketing Dive, How Gen Z breaks marketing's cultural mold",
+   "year": 2022,
+   "theme": "social",
+   "quality": "B",
+   "flag": "Dated (2022). Your reports label this 'primary research'; it is a trade-press figure."
+  },
+  {
+   "id": "I048",
+   "headline": "DMs are daily behavior",
+   "finding": "Over half of Gen Z social users send direct messages daily on platforms like Instagram.",
+   "number": "53%",
+   "source": "Article: How Gen Z is driving dark social trends",
+   "year": 2025,
+   "theme": "social",
+   "quality": "C"
+  },
+  {
+   "id": "I049",
+   "headline": "Notifications cause stress",
+   "finding": "61% of Gen Z say screen-time notifications cause them stress and guilt.",
+   "number": "61%",
+   "source": "Article: How Gen Zers Spend Their Free Time",
+   "year": 2026,
+   "theme": "values",
+   "quality": "C"
+  },
+  {
+   "id": "I050",
+   "headline": "Unplugging as a status symbol",
+   "finding": "Over a third of Gen Z see cutting back on screen time as a flex or status symbol.",
+   "number": "37%",
+   "source": "Article: How Gen Zers Spend Their Free Time",
+   "year": 2026,
+   "theme": "values",
+   "quality": "C",
+   "flag": "Your trend report cites 60% for this; the source line says 37%."
+  },
+  {
+   "id": "I051",
+   "headline": "No hobbies is a red flag",
+   "finding": "52% of Gen Z consider having no hobbies a major romantic red flag.",
+   "number": "52%",
+   "source": "Article: How Gen Zers Spend Their Free Time",
+   "year": 2026,
+   "theme": "social",
+   "quality": "C"
+  },
+  {
+   "id": "I052",
+   "headline": "Tight hobby budgets",
+   "finding": "23% of Gen Z have $50 or less a month for hobbies.",
+   "number": "23%",
+   "source": "Article: How Gen Zers Spend Their Free Time",
+   "year": 2026,
+   "theme": "values",
+   "quality": "C"
+  },
+  {
+   "id": "I053",
+   "headline": "Poppi acquired for $2B",
+   "finding": "Poppi built cultural cachet on TikTok, ending in a $2B acquisition by PepsiCo.",
+   "number": "$2B",
+   "source": "Article: How poppi became Gen Z's favorite soda brand",
+   "year": 2026,
+   "theme": "shopping",
+   "quality": "C"
+  },
+  {
+   "id": "I054",
+   "headline": "More authentic online",
+   "finding": "Over a quarter of US Gen Z feel more authentically themselves online than offline.",
+   "number": "26%",
+   "source": "Pion, Marketing to Gen Z: Tapping Into Subcultures",
+   "year": 2023,
+   "theme": "values",
+   "quality": "B",
+   "flag": "Dated (2023)."
+  },
+  {
+   "id": "I055",
+   "headline": "Gaming as a daily activity",
+   "finding": "38% of US Gen Z say gaming is one of their primary daily activities.",
+   "number": "38%",
+   "source": "Pion, Marketing to Gen Z: Tapping Into Subcultures",
+   "year": 2023,
+   "theme": "formats",
+   "quality": "B",
+   "flag": "Dated (2023)."
+  },
+  {
+   "id": "I056",
+   "headline": "Gen Z buying power",
+   "finding": "Gen Z direct purchasing power is estimated at $360B.",
+   "number": "$360B",
+   "source": "Article: Marketing to Gen Z: Subcultures are the New Demographics",
+   "year": 2022,
+   "theme": "shopping",
+   "quality": "C",
+   "flag": "Dated (2022) estimate."
+  },
+  {
+   "id": "I057",
+   "headline": "Five passion sectors, twelve subcultures",
+   "finding": "Industry research groups Gen Z engagement into five passion sectors and twelve subcultures.",
+   "number": "12 subcultures",
+   "source": "Article: Marketing to Gen Z: Subcultures are the New Demographics",
+   "year": 2022,
+   "theme": "trends",
+   "quality": "C",
+   "flag": "Dated (2022); a taxonomy, not a measurement."
+  },
+  {
+   "id": "I058",
+   "headline": "Less Google search",
+   "finding": "Gen Z uses Google search 25% less than older generations, turning to social platforms instead.",
+   "number": "25% less",
+   "source": "Operator's Edge: Gen Z Shifts Habits to Social Media Platforms",
+   "year": 2025,
+   "theme": "digital",
+   "quality": "C"
+  },
+  {
+   "id": "I059",
+   "headline": "Social preferred to search engines",
+   "finding": "46% of Gen Z prefer searching on social platforms rather than search engines.",
+   "number": "46%",
+   "source": "Operator's Edge: Gen Z Shifts Habits to Social Media Platforms",
+   "year": 2025,
+   "theme": "digital",
+   "quality": "C"
+  },
+  {
+   "id": "I060",
+   "headline": "Nike tops teen apparel",
+   "finding": "Nike remains the preferred apparel and footwear brand among US teens.",
+   "number": "#1",
+   "source": "Piper Sandler, 50th Semi-Annual Teen Survey",
+   "year": 2025,
+   "theme": "fashion",
+   "quality": "A"
+  },
+  {
+   "id": "I061",
+   "headline": "e.l.f. tops teen beauty",
+   "finding": "e.l.f. Cosmetics is the most preferred cosmetics brand among US teens.",
+   "number": "#1",
+   "source": "Piper Sandler, 50th Semi-Annual Teen Survey",
+   "year": 2025,
+   "theme": "fashion",
+   "quality": "A"
+  },
+  {
+   "id": "I062",
+   "headline": "Micro-communities express identity",
+   "finding": "63% of young adults say online micro-communities help them express their identity.",
+   "number": "63%",
+   "source": "LBB, Reddit and Beyond: The Rise of Niche Markets",
+   "year": 2024,
+   "theme": "social",
+   "quality": "B"
+  },
+  {
+   "id": "I063",
+   "headline": "Normal to be weird online",
+   "finding": "86% of young adults in APAC say it is normal to be weird online.",
+   "number": "86%",
+   "source": "LBB, Reddit and Beyond: The Rise of Niche Markets",
+   "year": 2024,
+   "theme": "values",
+   "quality": "B",
+   "flag": "APAC sample, not US."
+  },
+  {
+   "id": "I064",
+   "headline": "UGG equity jump",
+   "finding": "UGG's brand equity score rose 13.5 points following its lo-fi anti-AI B-movie campaign.",
+   "number": "+13.5 pts",
+   "source": "Article: The brands that are winning with Gen Z in 2026",
+   "year": 2026,
+   "theme": "fashion",
+   "quality": "B",
+   "flag": "Your reports attribute the UGG jump to different causes (anti-AI campaign vs. repositioning). Treat the cause as unconfirmed."
+  },
+  {
+   "id": "I065",
+   "headline": "Free People Movement growth",
+   "finding": "Free People Movement saw a brand equity increase alongside 34% sales growth.",
+   "number": "34% growth",
+   "source": "Article: The brands that are winning with Gen Z in 2026",
+   "year": 2026,
+   "theme": "fashion",
+   "quality": "B"
+  },
+  {
+   "id": "I066",
+   "headline": "Owala as an emotional support badge",
+   "finding": "Owala gained brand equity by positioning its FreeSip bottle as an emotional-support badge with scarce colorways.",
+   "number": "+7.8 equity",
+   "source": "Article: The brands that are winning with Gen Z in 2026",
+   "year": 2026,
+   "theme": "shopping",
+   "quality": "B"
+  },
+  {
+   "id": "I067",
+   "headline": "Chipotle leads QSR consideration",
+   "finding": "Chipotle reached 78% consideration among Gen Z, leading fast-casual restaurants.",
+   "number": "78%",
+   "source": "Article: The brands that are winning with Gen Z in 2026",
+   "year": 2026,
+   "theme": "shopping",
+   "quality": "B"
+  },
+  {
+   "id": "I068",
+   "headline": "CeraVe grows twenty-fold",
+   "finding": "CeraVe's annual sales grew from $100M in 2017 to $2.2B in 2024, credited to organic social proof.",
+   "number": "$2.2B",
+   "source": "new/day studio, TikTok Brands That Went Viral (2025)",
+   "year": 2025,
+   "theme": "shopping",
+   "quality": "B"
+  },
+  {
+   "id": "I069",
+   "headline": "Liquid Death turns water into lifestyle",
+   "finding": "Liquid Death built a multi-hundred-million-dollar valuation by turning canned water into entertainment.",
+   "number": "multi-hundred million",
+   "source": "new/day studio, TikTok Brands That Went Viral (2025)",
+   "year": 2025,
+   "theme": "shopping",
+   "quality": "B"
+  },
+  {
+   "id": "I070",
+   "headline": "Gen Z most interested in secondhand",
+   "finding": "78% of US Gen Z adults are interested in buying secondhand apparel, the highest of any cohort.",
+   "number": "78%",
+   "source": "Article: Who is most interested in buying second-hand clothing in the US?",
+   "year": 2026,
+   "theme": "fashion",
+   "quality": "C"
+  },
+  {
+   "id": "I071",
+   "headline": "Women interested in secondhand",
+   "finding": "Nearly three quarters of US women are interested in buying pre-owned apparel.",
+   "number": "74%",
+   "source": "Article: Who is most interested in buying second-hand clothing in the US?",
+   "year": 2026,
+   "theme": "fashion",
+   "quality": "C"
+  },
+  {
+   "id": "I072",
+   "headline": "Politics affects dating",
+   "finding": "28% of Gen Z daters would cancel a date over opposing political views.",
+   "number": "28%",
+   "source": "Mashable, Why Gen Z is ditching mainstream dating apps",
+   "year": 2026,
+   "theme": "values",
+   "quality": "B"
+  },
+  {
+   "id": "I073",
+   "headline": "Cutting contact over values",
+   "finding": "60% of Gen Z have cut off contact with a friend or relative in the past year.",
+   "number": "60%",
+   "source": "Mashable, Why Gen Z is ditching mainstream dating apps",
+   "year": 2026,
+   "theme": "values",
+   "quality": "B"
+  },
+  {
+   "id": "I074",
+   "headline": "Five-plus hours of screens",
+   "finding": "Gen Z averages over five hours a day on screens, pushing many to hyper-niche spaces.",
+   "number": "5+ hours/day",
+   "source": "Mashable, Why Gen Z is ditching mainstream dating apps",
+   "year": 2026,
+   "theme": "digital",
+   "quality": "B"
+  },
+  {
+   "id": "I075",
+   "headline": "Personalization expected",
+   "finding": "64% of Gen Z expect personalized experiences from the brands they buy from.",
+   "number": "64%",
+   "source": "Article: Why mass marketing will not work on Gen Z",
+   "year": 2022,
+   "theme": "shopping",
+   "quality": "C",
+   "flag": "Dated (2022)."
+  },
+  {
+   "id": "I076",
+   "headline": "Practical skills over schooling",
+   "finding": "All Gen Z participants surveyed agreed practical skills matter more than traditional schooling.",
+   "number": "100%",
+   "source": "Article: Why mass marketing will not work on Gen Z",
+   "year": 2022,
+   "theme": "values",
+   "quality": "C",
+   "flag": "Dated (2022); '100% of participants' implies a very small sample."
+  },
+  {
+   "id": "I077",
+   "headline": "Mixed gender traits",
+   "finding": "82% of Gen Z respondents consider themselves to have both masculine and feminine traits.",
+   "number": "82%",
+   "source": "Article: Why mass marketing will not work on Gen Z",
+   "year": 2022,
+   "theme": "values",
+   "quality": "C",
+   "flag": "Dated (2022); sample unclear."
+  },
+  {
+   "id": "I078",
+   "headline": "US resale growth rate",
+   "finding": "US secondhand apparel is projected to grow at a 7.3% CAGR, adding over $23B by 2030.",
+   "number": "7.3% CAGR",
+   "source": "ThredUp Resale Report 2026 (GlobalData)",
+   "year": 2026,
+   "theme": "fashion",
+   "quality": "A"
+  },
+  {
+   "id": "I079",
+   "headline": "Resale value matters when buying new",
+   "finding": "Around 60% of consumers say resale value is a consideration when buying new clothing (the report also states 67% of Gen Z consider resale value before a purchase; see I101).",
+   "number": "60%",
+   "source": "ThredUp Resale Report 2026 (GlobalData)",
+   "year": 2026,
+   "theme": "fashion",
+   "quality": "A",
+   "flag": "All consumers, not Gen Z only."
+  },
+  {
+   "id": "I080",
+   "headline": "Closets as assets",
+   "finding": "52% of Gen Z and Millennials try to resell more than half of their closets.",
+   "number": "52%",
+   "source": "ThredUp Resale Report 2026 (GlobalData)",
+   "year": 2026,
+   "theme": "fashion",
+   "quality": "A"
+  },
+  {
+   "id": "I081",
+   "headline": "Secondhand first",
+   "finding": "58% of Gen Z prioritize or check secondhand before buying new clothing.",
+   "number": "58%",
+   "source": "ThredUp Resale Report 2026 (GlobalData)",
+   "year": 2026,
+   "theme": "fashion",
+   "quality": "A"
+  },
+  {
+   "id": "I082",
+   "headline": "Comfort with AI shopping agents",
+   "finding": "63% of Gen Z say they are comfortable with agentic AI tools managing purchases.",
+   "number": "63%",
+   "source": "ThredUp Resale Report 2026 (GlobalData)",
+   "year": 2026,
+   "theme": "digital",
+   "quality": "A"
+  },
+  {
+   "id": "I083",
+   "headline": "Organic feed inspires TikTok shopping",
+   "finding": "71% of TikTok shoppers get purchase inspiration from organic feed content.",
+   "number": "71%",
+   "source": "Britopian, TikTok Consumer Purchasing Behavior Report 2024–2025",
+   "year": 2025,
+   "theme": "shopping",
+   "quality": "B",
+   "flag": "All TikTok shoppers, not Gen Z only."
+  },
+  {
+   "id": "I084",
+   "headline": "Creators drive brand exploration",
+   "finding": "49% of TikTok users say creators inspire them to explore featured brands.",
+   "number": "49%",
+   "source": "Britopian, TikTok Consumer Purchasing Behavior Report 2024–2025",
+   "year": 2025,
+   "theme": "social",
+   "quality": "B",
+   "flag": "All TikTok users, not Gen Z only."
+  },
+  {
+   "id": "I085",
+   "headline": "TikTok as a research tool",
+   "finding": "17% of Gen Z use TikTok specifically to research products before buying.",
+   "number": "17%",
+   "source": "Britopian, TikTok Consumer Purchasing Behavior Report 2024–2025",
+   "year": 2025,
+   "theme": "shopping",
+   "quality": "B"
+  },
+  {
+   "id": "I086",
+   "headline": "Impulse buying on social",
+   "finding": "55% of US TikTok users admit to impulse purchases on social platforms.",
+   "number": "55%",
+   "source": "Britopian, TikTok Consumer Purchasing Behavior Report 2024–2025",
+   "year": 2025,
+   "theme": "shopping",
+   "quality": "B",
+   "flag": "All US TikTok users, not Gen Z only."
+  },
+  {
+   "id": "I087",
+   "headline": "Beauty share of TikTok Shop",
+   "finding": "The source states 81% of US TikTok Shop sales volume is in beauty.",
+   "number": "81%",
+   "source": "Britopian, TikTok Consumer Purchasing Behavior Report 2024–2025",
+   "year": 2025,
+   "theme": "shopping",
+   "quality": "B",
+   "flag": "Check before use: 81% of TikTok Shop US volume in beauty looks high against other reporting."
+  },
+  {
+   "id": "I088",
+   "headline": "Social drives skincare purchases",
+   "finding": "55% of Gen Z women say social media led them to buy skincare.",
+   "number": "55%",
+   "source": "Britopian, TikTok Consumer Purchasing Behavior Report 2024–2025",
+   "year": 2025,
+   "theme": "shopping",
+   "quality": "B"
+  },
+  {
+   "id": "I089",
+   "headline": "Gen Z more likely to buy on TikTok Shop",
+   "finding": "Gen Z adults are 3.2 times more likely than the average consumer to purchase via TikTok Shop.",
+   "number": "3.2x",
+   "source": "Britopian, TikTok Consumer Purchasing Behavior Report 2024–2025",
+   "year": 2025,
+   "theme": "shopping",
+   "quality": "B",
+   "flag": "Often misquoted as '3.2x higher conversion rates' (your formats report does this). The source says Gen Z is 3.2x more likely to buy via TikTok Shop."
+  },
+  {
+   "id": "I090",
+   "headline": "Coupons drive in-app conversion",
+   "finding": "58% of TikTok users say exclusive coupons encourage them to buy in-app.",
+   "number": "58%",
+   "source": "Britopian, TikTok Consumer Purchasing Behavior Report 2024–2025",
+   "year": 2025,
+   "theme": "shopping",
+   "quality": "B",
+   "flag": "All TikTok users, not Gen Z only."
+  },
+  {
+   "id": "I091",
+   "headline": "Forum participation rising globally",
+   "finding": "Global internet users' participation in online forums and blogs grew from 72% to 76%.",
+   "number": "76%",
+   "source": "GWI with Reddit, The Era of We",
+   "year": 2024,
+   "theme": "social",
+   "quality": "A",
+   "flag": "Global internet users, all ages."
+  },
+  {
+   "id": "I092",
+   "headline": "Less daily life sharing",
+   "finding": "Internet users posting daily life details on social media fell from 27% to 20%.",
+   "number": "20%",
+   "source": "GWI with Reddit, The Era of We",
+   "year": 2024,
+   "theme": "social",
+   "quality": "A",
+   "flag": "Global internet users, all ages."
+  },
+  {
+   "id": "I093",
+   "headline": "Familiar with community hubs",
+   "finding": "77% of Gen Z and Millennials are familiar with online community forums.",
+   "number": "77%",
+   "source": "GWI with Reddit, The Era of We",
+   "year": 2024,
+   "theme": "social",
+   "quality": "A"
+  },
+  {
+   "id": "I094",
+   "headline": "Shared interests drive community visits",
+   "finding": "66% of online community visitors go to connect with people who share their interests.",
+   "number": "66%",
+   "source": "GWI with Reddit, The Era of We",
+   "year": 2024,
+   "theme": "social",
+   "quality": "A",
+   "flag": "All community visitors, not Gen Z only."
+  },
+  {
+   "id": "I095",
+   "headline": "Forums for honest advice",
+   "finding": "55% of forum visitors use community boards to seek honest advice from peers.",
+   "number": "55%",
+   "source": "GWI with Reddit, The Era of We",
+   "year": 2024,
+   "theme": "social",
+   "quality": "A",
+   "flag": "All forum visitors, not Gen Z only."
+  },
+  {
+   "id": "I096",
+   "headline": "Forums trusted nearly like news",
+   "finding": "48% of US Gen Z trust community forums nearly as much as traditional news.",
+   "number": "48%",
+   "source": "GWI with Reddit, The Era of We",
+   "year": 2024,
+   "theme": "values",
+   "quality": "A",
+   "flag": "Your trend report restates this as 'trust anonymous consensus over expert reviews'; the source says 'nearly as much as traditional news'."
+  },
+  {
+   "id": "I097",
+   "headline": "Forum recommendations beat trade reviews",
+   "finding": "43% of Gen Z trust forum recommendations over specialist trade-magazine reviews.",
+   "number": "43%",
+   "source": "GWI with Reddit, The Era of We",
+   "year": 2024,
+   "theme": "shopping",
+   "quality": "A"
+  },
+  {
+   "id": "I098",
+   "headline": "Hours on text platforms",
+   "finding": "41% of Gen Z spend over ten hours a week on text-based platforms like Discord.",
+   "number": "41%",
+   "source": "Rajiv Gopinath, Text-Based Platforms Reddit, Discord and Deep Engagement (blog)",
+   "year": 2025,
+   "theme": "digital",
+   "quality": "C",
+   "flag": "Blog source; original survey not identified."
+  },
+  {
+   "id": "I099",
+   "headline": "Multiple private Discord servers",
+   "finding": "87% of Gen Z Discord users belong to at least three private invite-only servers.",
+   "number": "87%",
+   "source": "Rajiv Gopinath, Text-Based Platforms Reddit, Discord and Deep Engagement (blog)",
+   "year": 2025,
+   "theme": "social",
+   "quality": "C",
+   "flag": "Blog source; original survey not identified."
+  },
+  {
+   "id": "I100",
+   "headline": "TikTok Shop apparel milestone",
+   "finding": "TikTok Shop US generated over $1B in apparel sales volume in 2024.",
+   "number": "$1.01B",
+   "source": "Research Report: 100 Gen Z Brand Winners (NotebookLM-generated)",
+   "year": 2026,
+   "theme": "fashion",
+   "quality": "C",
+   "flag": "Circular: sourced to a NotebookLM-generated report, not an original source. Verify before use."
+  },
+  {
+   "id": "I101",
+   "headline": "Gen Z considers resale value",
+   "finding": "67% of surveyed Gen Z consider resale value before a purchase.",
+   "number": "67%",
+   "source": "ThredUp Resale Report 2026, via Chain Store Age",
+   "year": 2026,
+   "theme": "fashion",
+   "quality": "A"
+  },
+  {
+   "id": "I102",
+   "headline": "Gen Z shopped secondhand",
+   "finding": "62% of Gen Z shopped secondhand in 2025, shifting from big hauls to hunting specific \"holy grail\" pieces.",
+   "number": "62%",
+   "source": "ThredUp Resale Report 2026, via Chain Store Age",
+   "year": 2026,
+   "theme": "fashion",
+   "quality": "A"
+  },
+  {
+   "id": "I103",
+   "headline": "Built-in resale lifts purchase",
+   "finding": "52% of Gen Z are more likely to buy clothing when resale or trade-in is built in.",
+   "number": "52%",
+   "source": "ThredUp Resale Report 2026, via Chain Store Age",
+   "year": 2026,
+   "theme": "fashion",
+   "quality": "A"
+  },
+  {
+   "id": "P01",
+   "headline": "Vera Bradley invisible in college long-form",
+   "finding": "Across 81 unbranded college-backpack YouTube videos from the past 12 months (~8.4M views), Vera Bradley appeared in 0 titles; college backpack Shorts reach 1–7M views.",
+   "number": "0 of 81",
+   "source": "COBRA YouTube sampling test (single coder, directional)",
+   "year": 2026,
+   "theme": "social",
+   "quality": "P",
+   "flag": "Own small sample: directional only, not representative."
+  },
+  {
+   "id": "P02",
+   "headline": "Mother-daughter is implicit, not searched",
+   "finding": "Explicit 'mother daughter bag' searches return almost nothing, but inheritance themes are strong in Shorts (one 'once a VB girl, always a VB girl' Short ~1M views).",
+   "number": "~1M views",
+   "source": "COBRA YouTube sampling test (single coder, directional)",
+   "year": 2026,
+   "theme": "trends",
+   "quality": "P",
+   "flag": "Own small sample: directional only, not representative."
+  },
+  {
+   "id": "P03",
+   "headline": "Comments center on inheritance, durability and resale",
+   "finding": "In ~100 comments on 7 VB Shorts: ~10 inheritance/family, ~9 durability, ~8 thrift/resale, ~7 'it never left / comeback'.",
+   "number": "~100 comments",
+   "source": "COBRA YouTube sampling test (single coder, directional)",
+   "year": 2026,
+   "theme": "values",
+   "quality": "P",
+   "flag": "Own small sample: directional only, not representative."
+  },
+  {
+   "id": "P04",
+   "headline": "Older loyalists criticise rebrand and quality",
+   "finding": "In 116 comments on 10 VB long-form videos, ~30 were negative on rebrand/quality and ~17 preferred vintage or secondhand.",
+   "number": "~30 of 116",
+   "source": "COBRA YouTube sampling test (single coder, directional)",
+   "year": 2026,
+   "theme": "fashion",
+   "quality": "P",
+   "flag": "Own small sample: directional only, not representative."
+  }
+ ],
+ "formats": [
+  {
+   "id": "F01",
+   "name": "Lo-Fi \"POV\" Day-in-the-Life Vlogs",
+   "desc": "Raw, hand-held, ambient-audio video logs revealing unedited daily routines.",
+   "category": "Short-Form Video & Micro-Visuals",
+   "metric": "Watch time & shares"
+  },
+  {
+   "id": "F02",
+   "name": "GRWM (Get Ready With Me)",
+   "desc": "Conversational storytelling while applying makeup, styling outfits, or preparing for an event.",
+   "category": "Short-Form Video & Micro-Visuals",
+   "metric": "Watch time & shares"
+  },
+  {
+   "id": "F03",
+   "name": "Aesthetic \"Dump\" & Photo Slideshows",
+   "desc": "Multi-photo carousels blending candid photos, memes, receipts, and low-exposure snapshots.",
+   "category": "Short-Form Video & Micro-Visuals"
+  },
+  {
+   "id": "F04",
+   "name": "ASMR Unboxing & Tactile Reviews",
+   "desc": "Sensory-heavy videos focusing on crisp audio (swatching, packaging taps, product pops).",
+   "category": "Short-Form Video & Micro-Visuals",
+   "metric": "Saves & instant buys"
+  },
+  {
+   "id": "F05",
+   "name": "Micro-Tutorials & 60-Second \"Life Hacks\"",
+   "desc": "Ultra-fast educational videos explaining practical adulting, career, or tech hacks.",
+   "category": "Short-Form Video & Micro-Visuals"
+  },
+  {
+   "id": "F06",
+   "name": "Meme-Format Video Reactions",
+   "desc": "Pairing viral soundbites or trending video templates with relatable, self-deprecating text overlays.",
+   "category": "Short-Form Video & Micro-Visuals"
+  },
+  {
+   "id": "F07",
+   "name": "\"Outfit of the Day\" (OOTD) & Thrift Hauls",
+   "desc": "Fast-paced outfit breakdowns highlighting secondhand scores and micro-aesthetic styling.",
+   "category": "Short-Form Video & Micro-Visuals"
+  },
+  {
+   "id": "F08",
+   "name": "Product \"Dupe\" Side-by-Side Comparisons",
+   "desc": "Honest lab-style testing comparing high-end items against budget alternatives.",
+   "category": "Short-Form Video & Micro-Visuals",
+   "metric": "In-app conversions"
+  },
+  {
+   "id": "F09",
+   "name": "\"De-Influencing\" & Brutally Honest Audits",
+   "desc": "Videos explicitly telling followers what *not* to buy, building high trust through negative reviews.",
+   "category": "Short-Form Video & Micro-Visuals",
+   "metric": "Creator trust & comment volume"
+  },
+  {
+   "id": "F10",
+   "name": "Silent Reviews & Gestural Ratings",
+   "desc": "Expressing opinions solely through facial expressions, thumbs up/down, and rating cards without speaking.",
+   "category": "Short-Form Video & Micro-Visuals"
+  },
+  {
+   "id": "F11",
+   "name": "Polls & Interactive Story Stickers",
+   "desc": "Low-friction tap-to-vote stickers embedded in Instagram/TikTok stories.",
+   "category": "Interactive & Participatory Formats",
+   "metric": "Sticker tap rate"
+  },
+  {
+   "id": "F12",
+   "name": "Duets & Remix / Reaction Clips",
+   "desc": "Side-by-side video responses building on another creator’s original content.",
+   "category": "Interactive & Participatory Formats"
+  },
+  {
+   "id": "F13",
+   "name": "User-Generated Challenge Hashtags",
+   "desc": "Interactive challenges encouraging audience co-creation around a specific audio or physical gesture.",
+   "category": "Interactive & Participatory Formats"
+  },
+  {
+   "id": "F14",
+   "name": "Live Stream Shopping & Q&A Drops",
+   "desc": "Real-time video broadcasts with clickable buy-buttons and instant host replies.",
+   "category": "Interactive & Participatory Formats",
+   "metric": "GMV"
+  },
+  {
+   "id": "F15",
+   "name": "Interactive Quizzes & Diagnostic Engines",
+   "desc": "Bite-sized personality tests or shade-matchers revealing customized recommendations.",
+   "category": "Interactive & Participatory Formats"
+  },
+  {
+   "id": "F16",
+   "name": "Crowdsourced Comment Section Q&As",
+   "desc": "Content explicitly driven by screenshotting and answering top audience comments.",
+   "category": "Interactive & Participatory Formats"
+  },
+  {
+   "id": "F17",
+   "name": "Augmented Reality (AR) Try-On Filters",
+   "desc": "Virtual makeup, hair dye, or sneaker overlays used inside camera apps.",
+   "category": "Interactive & Participatory Formats",
+   "metric": "Filter usage & shares"
+  },
+  {
+   "id": "F18",
+   "name": "Ephemereal \"Photodump\" Stories",
+   "desc": "24-hour expiring raw photo dumps signaling casual immediacy rather than permanent feed polish.",
+   "category": "Interactive & Participatory Formats"
+  },
+  {
+   "id": "F19",
+   "name": "Discord Community Voice & Stage Discussions",
+   "desc": "Live, informal audio lounge sessions hosted within interest-based servers.",
+   "category": "Interactive & Participatory Formats",
+   "metric": "Peak live listeners"
+  },
+  {
+   "id": "F20",
+   "name": "Gamified Roblox / Virtual World Quests",
+   "desc": "In-game branded mini-games offering exclusive virtual cosmetics (UGC items).",
+   "category": "Interactive & Participatory Formats",
+   "metric": "Claim rate & play time"
+  },
+  {
+   "id": "F21",
+   "name": "Micro-Podcasts & Short Audio Snippets",
+   "desc": "5- to 15-minute focused audio deep dives paired with visual waveform clips.",
+   "category": "Audio & Conversational Formats"
+  },
+  {
+   "id": "F22",
+   "name": "Video Podcasts (Vodcasts)",
+   "desc": "Full-length studio audio conversations filmed with dual cameras for YouTube/Spotify.",
+   "category": "Audio & Conversational Formats",
+   "metric": "Average duration"
+  },
+  {
+   "id": "F23",
+   "name": "Custom Brand Soundbites & Viral Audio Clips",
+   "desc": "Catchy 15-second audio stems engineered to become background tracks for user videos.",
+   "category": "Audio & Conversational Formats",
+   "metric": "User video creations"
+  },
+  {
+   "id": "F24",
+   "name": "Lo-Fi Beats & Ambient Focus Streams",
+   "desc": "Continuous background music streams paired with cozy animated loops for studying.",
+   "category": "Audio & Conversational Formats"
+  },
+  {
+   "id": "F25",
+   "name": "Conversational \"Storytime\" Monologues",
+   "desc": "Intimate, unfiltered personal anecdotes delivered straight to the front camera.",
+   "category": "Audio & Conversational Formats"
+  },
+  {
+   "id": "F26",
+   "name": "Voice Memo Style DMs & Broadcast Clips",
+   "desc": "Casual, low-production voice messages shared directly with broadcast channel subscribers.",
+   "category": "Audio & Conversational Formats"
+  },
+  {
+   "id": "F27",
+   "name": "ASMR Sleep & Relaxation Audio Tracks",
+   "desc": "Whispered or ambient soundscapes designed for stress relief and bedtime listening.",
+   "category": "Audio & Conversational Formats"
+  },
+  {
+   "id": "F28",
+   "name": "Fan-Edited Audio Mashups & Slowed+Reverb Tracks",
+   "desc": "User-remixed pop songs adjusted for specific moods or aesthetic edits.",
+   "category": "Audio & Conversational Formats"
+  },
+  {
+   "id": "F29",
+   "name": "Investigative Audio Deep Dives / True Crime Summaries",
+   "desc": "Episodic audio narration exploring Internet lore, hoaxes, or cultural drama.",
+   "category": "Audio & Conversational Formats"
+  },
+  {
+   "id": "F30",
+   "name": "Live Audio Spaces & Town Halls",
+   "desc": "Real-time drop-in voice conversations on platforms like X, Discord, or Clubhouse.",
+   "category": "Audio & Conversational Formats"
+  },
+  {
+   "id": "F31",
+   "name": "Annotated Carousel Slide Decks",
+   "desc": "Information-dense multi-slide carousels featuring bold typography and infographics.",
+   "category": "Educational, Niche & Text-Driven Formats",
+   "metric": "Save rate & reposts"
+  },
+  {
+   "id": "F32",
+   "name": "Reddit-Style Text Debates & AMA (Ask Me Anything)",
+   "desc": "Deep threaded Q&A discussions focusing on raw peer transparency.",
+   "category": "Educational, Niche & Text-Driven Formats",
+   "metric": "Upvote ratio & comment depth"
+  },
+  {
+   "id": "F33",
+   "name": "Niche Subculture Glossary & Lexicon Explainers",
+   "desc": "Content breaking down internet slang, subculture aesthetics, or fandom lore.",
+   "category": "Educational, Niche & Text-Driven Formats"
+  },
+  {
+   "id": "F34",
+   "name": "Text-Overlay Screen Recordings",
+   "desc": "Guided walkthroughs of software, budgeting spreadsheets, or booking processes.",
+   "category": "Educational, Niche & Text-Driven Formats"
+  },
+  {
+   "id": "F35",
+   "name": "Niche Community \"Zines\" & Digital Magazines",
+   "desc": "Stylized digital PDFs or Substack newsletters focusing on indie culture.",
+   "category": "Educational, Niche & Text-Driven Formats"
+  },
+  {
+   "id": "F36",
+   "name": "Graphic Data Visualizations & Bento Grid Summaries",
+   "desc": "Clean, modular graphic grids displaying statistics or product specs.",
+   "category": "Educational, Niche & Text-Driven Formats"
+  },
+  {
+   "id": "F37",
+   "name": "\"FinTok\" Micro-Budgeting Breakdown Spreadsheets",
+   "desc": "Visual financial planning walkthroughs highlighting debt paydown or frugality.",
+   "category": "Educational, Niche & Text-Driven Formats",
+   "metric": "Saves"
+  },
+  {
+   "id": "F38",
+   "name": "Annotated Book/Media Reviews (#BookTok)",
+   "desc": "Physical book scans featuring tabbed pages, highlighted quotes, and emotional reviews.",
+   "category": "Educational, Niche & Text-Driven Formats"
+  },
+  {
+   "id": "F39",
+   "name": "Recipe & Meal-Prep Micro-Cards",
+   "desc": "Fast-cut culinary videos paired with step-by-step ingredient text overlays.",
+   "category": "Educational, Niche & Text-Driven Formats"
+  },
+  {
+   "id": "F40",
+   "name": "Career & Resume Tear-Downs",
+   "desc": "Before-and-after critiques of job application materials and salary negotiation scripts.",
+   "category": "Educational, Niche & Text-Driven Formats"
+  },
+  {
+   "id": "F41",
+   "name": "Serialized \"Part 1 of 10\" Micro-Series",
+   "desc": "Multi-episode short-form video arcs that build narrative cliffhangers across posts.",
+   "category": "Long-Form, Serialized & Experimental Formats"
+  },
+  {
+   "id": "F42",
+   "name": "Deep-Dive Video Essays (15–60 Mins)",
+   "desc": "Exhaustive long-form YouTube commentary analyzing pop culture, internet history, or media.",
+   "category": "Long-Form, Serialized & Experimental Formats",
+   "metric": "Viewer retention"
+  },
+  {
+   "id": "F43",
+   "name": "\"Behind the Brand\" Founder Journey Logs",
+   "desc": "Transparent video diaries detailing business failures, factory tours, and raw costs.",
+   "category": "Long-Form, Serialized & Experimental Formats",
+   "metric": "Loyalty & community sentiment"
+  },
+  {
+   "id": "F44",
+   "name": "Unedited \"Comfort Content\" Vlogs",
+   "desc": "Slow-paced, calming video content with no sudden jump-cuts or aggressive sound effects.",
+   "category": "Long-Form, Serialized & Experimental Formats"
+  },
+  {
+   "id": "F45",
+   "name": "Cursed / Surreal Absurdist Comedy Clips",
+   "desc": "Bizarre, non-sequitur humor using intentionally glitchy visuals and weird sound design.",
+   "category": "Long-Form, Serialized & Experimental Formats",
+   "metric": "Engagement-to-impression ratio"
+  },
+  {
+   "id": "F46",
+   "name": "Nostalgia Resets & Y2K Aesthetic Recaps",
+   "desc": "Retro-filtered video edits featuring 1990s/2000s tech, fashion, and pop culture clips.",
+   "category": "Long-Form, Serialized & Experimental Formats"
+  },
+  {
+   "id": "F47",
+   "name": "Interactive Choose-Your-Own-Adventure Videos",
+   "desc": "Multi-video branching narratives connected via end-screen links.",
+   "category": "Long-Form, Serialized & Experimental Formats"
+  },
+  {
+   "id": "F48",
+   "name": "Anonymized Confession & Story Submissions",
+   "desc": "Reading crowdsourced anonymous confessions or secrets submitted by followers.",
+   "category": "Long-Form, Serialized & Experimental Formats"
+  },
+  {
+   "id": "F49",
+   "name": "\"Anti-Ad\" Meta-Commercials",
+   "desc": "Self-aware ads that explicitly call out advertising tropes while promoting a product.",
+   "category": "Long-Form, Serialized & Experimental Formats"
+  },
+  {
+   "id": "F50",
+   "name": "Co-Created Fan Art & Cosplay Showcases",
+   "desc": "Highlighting community-submitted artwork, costume designs, and fan fiction.",
+   "category": "Long-Form, Serialized & Experimental Formats"
+  }
+ ],
+ "touchpoints": [
+  {
+   "id": "T01",
+   "name": "TikTok Main Feed (For You Page)",
+   "desc": "Algorithmically driven short-form video discovery feed.",
+   "category": "Core Social Video & Visual Platforms"
+  },
+  {
+   "id": "T02",
+   "name": "Instagram Reels",
+   "desc": "Short-form video tab integrated into Meta's visual ecosystem.",
+   "category": "Core Social Video & Visual Platforms"
+  },
+  {
+   "id": "T03",
+   "name": "YouTube Shorts",
+   "desc": "Vertical micro-video shelf driving massive casual viewership.",
+   "category": "Core Social Video & Visual Platforms"
+  },
+  {
+   "id": "T04",
+   "name": "YouTube Long-Form / Main",
+   "desc": "Primary destination for deep-dive tutorials, video essays, and gaming streams.",
+   "category": "Core Social Video & Visual Platforms"
+  },
+  {
+   "id": "T05",
+   "name": "Instagram Main Feed",
+   "desc": "Visual photo carousels, aesthetic dumps, and brand identity showcases.",
+   "category": "Core Social Video & Visual Platforms"
+  },
+  {
+   "id": "T06",
+   "name": "Instagram Stories",
+   "desc": "Ephemeral 24-hour casual updates, interactive polls, and link shares.",
+   "category": "Core Social Video & Visual Platforms"
+  },
+  {
+   "id": "T07",
+   "name": "Pinterest Search & Mood Boards",
+   "desc": "Visual discovery engine for aesthetic curation, fashion inspiration, and decor.",
+   "category": "Core Social Video & Visual Platforms"
+  },
+  {
+   "id": "T08",
+   "name": "Snapchat Spotlight",
+   "desc": "Vertical short-form entertainment feed with high Gen Z reach.",
+   "category": "Core Social Video & Visual Platforms"
+  },
+  {
+   "id": "T09",
+   "name": "Snapchat Stories & Snap Map",
+   "desc": "Local friend-tracking and direct, ephemeral visual messaging.",
+   "category": "Core Social Video & Visual Platforms"
+  },
+  {
+   "id": "T10",
+   "name": "BeReal Feed",
+   "desc": "Unfiltered, dual-camera daily photo notifications capturing spontaneous real-life moments.",
+   "category": "Core Social Video & Visual Platforms"
+  },
+  {
+   "id": "T11",
+   "name": "Discord Public & Private Servers",
+   "desc": "Topic-based community hubs featuring text, voice, and streaming channels.",
+   "category": "Dark Social, Messaging & Private Communities"
+  },
+  {
+   "id": "T12",
+   "name": "Instagram Direct Messages (DMs)",
+   "desc": "Primary private sharing channel where Gen Z forwards Reels and memes to close friends.",
+   "category": "Dark Social, Messaging & Private Communities"
+  },
+  {
+   "id": "T13",
+   "name": "Instagram Broadcast Channels",
+   "desc": "One-to-many direct creator channels for behind-the-scenes text and voice memos.",
+   "category": "Dark Social, Messaging & Private Communities"
+  },
+  {
+   "id": "T14",
+   "name": "Reddit Niche Subreddits",
+   "desc": "Anonymous, upvoted community forums for unbiased product reviews and niche discussions.",
+   "category": "Dark Social, Messaging & Private Communities"
+  },
+  {
+   "id": "T15",
+   "name": "TikTok DM Sharing",
+   "desc": "Direct peer-to-peer sharing of viral short-form clips inside TikTok.",
+   "category": "Dark Social, Messaging & Private Communities"
+  },
+  {
+   "id": "T16",
+   "name": "WhatsApp Group Chats",
+   "desc": "Encrypted private messaging channels for intimate group banter and media sharing.",
+   "category": "Dark Social, Messaging & Private Communities"
+  },
+  {
+   "id": "T17",
+   "name": "Telegram Niche Channels",
+   "desc": "Specialized group channels for exclusive drops, crypto, or subculture news.",
+   "category": "Dark Social, Messaging & Private Communities",
+   "vb_fit": "low"
+  },
+  {
+   "id": "T18",
+   "name": "Signal Encrypted Chats",
+   "desc": "Privacy-first group messaging favored by security-conscious youth.",
+   "category": "Dark Social, Messaging & Private Communities",
+   "vb_fit": "low"
+  },
+  {
+   "id": "T19",
+   "name": "iMessage / SMS Group Threads",
+   "desc": "Traditional mobile text groups for close-knit peer circles.",
+   "category": "Dark Social, Messaging & Private Communities"
+  },
+  {
+   "id": "T20",
+   "name": "Threads (Meta)",
+   "desc": "Text-first conversation platform integrated with Instagram identity.",
+   "category": "Dark Social, Messaging & Private Communities"
+  },
+  {
+   "id": "T21",
+   "name": "Twitch Live Streams",
+   "desc": "Real-time gaming, esports, and \"Just Chatting\" video broadcasts.",
+   "category": "Gaming, Spatial & Metaverse Touchpoints",
+   "vb_fit": "low"
+  },
+  {
+   "id": "T22",
+   "name": "Roblox Branded Experiences",
+   "desc": "Interactive 3D virtual worlds featuring custom mini-games and avatar fashion.",
+   "category": "Gaming, Spatial & Metaverse Touchpoints"
+  },
+  {
+   "id": "T23",
+   "name": "Fortnite Creative Worlds",
+   "desc": "Custom branded battle arenas, virtual concerts, and island experiences.",
+   "category": "Gaming, Spatial & Metaverse Touchpoints",
+   "vb_fit": "low"
+  },
+  {
+   "id": "T24",
+   "name": "Discord Stage Channels in Gaming Servers",
+   "desc": "Live voice lounges for esports events and gaming discussions.",
+   "category": "Gaming, Spatial & Metaverse Touchpoints",
+   "vb_fit": "low"
+  },
+  {
+   "id": "T25",
+   "name": "YouTube Gaming Streams",
+   "desc": "Live and archived gaming playthroughs and competitive tournaments.",
+   "category": "Gaming, Spatial & Metaverse Touchpoints",
+   "vb_fit": "low"
+  },
+  {
+   "id": "T26",
+   "name": "Kick Streaming",
+   "desc": "High-stakes, unmoderated live streaming platform popular among younger male audiences.",
+   "category": "Gaming, Spatial & Metaverse Touchpoints",
+   "vb_fit": "low"
+  },
+  {
+   "id": "T27",
+   "name": "Steam Community Hubs",
+   "desc": "Game-specific forums, user reviews, and modding communities.",
+   "category": "Gaming, Spatial & Metaverse Touchpoints",
+   "vb_fit": "low"
+  },
+  {
+   "id": "T28",
+   "name": "VRChat Virtual Hangouts",
+   "desc": "Immersive 3D social spaces used for virtual meetup events and avatar roleplay.",
+   "category": "Gaming, Spatial & Metaverse Touchpoints",
+   "vb_fit": "low"
+  },
+  {
+   "id": "T29",
+   "name": "Minecraft Custom Servers",
+   "desc": "Dedicated multiplayer worlds featuring player-built architectures and communities.",
+   "category": "Gaming, Spatial & Metaverse Touchpoints",
+   "vb_fit": "low"
+  },
+  {
+   "id": "T30",
+   "name": "Genshin Impact / Mobile Game In-Game Events",
+   "desc": "In-app narrative events and brand crossover campaigns inside mobile games.",
+   "category": "Gaming, Spatial & Metaverse Touchpoints",
+   "vb_fit": "low"
+  },
+  {
+   "id": "T31",
+   "name": "TikTok Shop",
+   "desc": "Integrated in-app marketplace enabling seamless impulse purchases from video feeds.",
+   "category": "Commerce, Marketplaces & Discovery Touchpoints"
+  },
+  {
+   "id": "T32",
+   "name": "Depop Resale Marketplace",
+   "desc": "Peer-to-peer social shopping app for secondhand, vintage, and indie fashion.",
+   "category": "Commerce, Marketplaces & Discovery Touchpoints"
+  },
+  {
+   "id": "T33",
+   "name": "ThredUp Online Consignment",
+   "desc": "Circular fashion portal with instant search and sustainability filters.",
+   "category": "Commerce, Marketplaces & Discovery Touchpoints"
+  },
+  {
+   "id": "T34",
+   "name": "Instagram Shop & Product Tags",
+   "desc": "Clickable product tags embedded in photos, Reels, and creator posts.",
+   "category": "Commerce, Marketplaces & Discovery Touchpoints"
+  },
+  {
+   "id": "T35",
+   "name": "Amazon Storefronts & Creator Lists",
+   "desc": "Curated shopping lists managed by influencers and shared via link-in-bio.",
+   "category": "Commerce, Marketplaces & Discovery Touchpoints"
+  },
+  {
+   "id": "T36",
+   "name": "Poshmark Social Resale",
+   "desc": "Community marketplace for buying and reselling pre-owned clothing.",
+   "category": "Commerce, Marketplaces & Discovery Touchpoints"
+  },
+  {
+   "id": "T37",
+   "name": "LTK (LikeToKnow.it) App",
+   "desc": "Creator-driven affiliate shopping app for outfit and decor links.",
+   "category": "Commerce, Marketplaces & Discovery Touchpoints"
+  },
+  {
+   "id": "T38",
+   "name": "Vinted Secondhand App",
+   "desc": "European/US peer fashion marketplace emphasizing zero seller fees.",
+   "category": "Commerce, Marketplaces & Discovery Touchpoints"
+  },
+  {
+   "id": "T39",
+   "name": "Etsy Indie & Custom Crafts",
+   "desc": "Online marketplace for handmade goods, subculture accessories, and custom art.",
+   "category": "Commerce, Marketplaces & Discovery Touchpoints"
+  },
+  {
+   "id": "T40",
+   "name": "Brand Mobile Apps with Push Notifications",
+   "desc": "Dedicated brand applications offering exclusive drops and loyalty rewards.",
+   "category": "Commerce, Marketplaces & Discovery Touchpoints"
+  },
+  {
+   "id": "T41",
+   "name": "Spotify Podcasts & Video Podcasts",
+   "desc": "On-demand audio and video show platform with personalized playlists.",
+   "category": "Audio, Publishing & Offline/Hybrid Touchpoints"
+  },
+  {
+   "id": "T42",
+   "name": "Apple Podcasts",
+   "desc": "Native iOS podcast directory for educational and narrative audio.",
+   "category": "Audio, Publishing & Offline/Hybrid Touchpoints"
+  },
+  {
+   "id": "T43",
+   "name": "Substack Newsletters",
+   "desc": "Independent text-first publications for long-form essays, culture, and commentary.",
+   "category": "Audio, Publishing & Offline/Hybrid Touchpoints"
+  },
+  {
+   "id": "T44",
+   "name": "Tumblr Aesthetic Blogs",
+   "desc": "Text, GIF, and fandom blogging platform experiencing a Gen Z revival.",
+   "category": "Audio, Publishing & Offline/Hybrid Touchpoints"
+  },
+  {
+   "id": "T45",
+   "name": "Linktree / Link-in-Bio Landing Pages",
+   "desc": "Central hub aggregating a creator's or brand's multi-platform links.",
+   "category": "Audio, Publishing & Offline/Hybrid Touchpoints"
+  },
+  {
+   "id": "T46",
+   "name": "Pop-Up Experiential Stores",
+   "desc": "Physical immersive brand activations designed for photo opportunities and community gatherings.",
+   "category": "Audio, Publishing & Offline/Hybrid Touchpoints"
+  },
+  {
+   "id": "T47",
+   "name": "Campus Ambassador Events",
+   "desc": "On-college-grounds sampling, finals-week booths, and student club sponsorships.",
+   "category": "Audio, Publishing & Offline/Hybrid Touchpoints"
+  },
+  {
+   "id": "T48",
+   "name": "Festival & Concert Brand Lounges",
+   "desc": "Experiential sponsor booths at music festivals (e.g., Coachella, Lollapalooza).",
+   "category": "Audio, Publishing & Offline/Hybrid Touchpoints"
+  },
+  {
+   "id": "T49",
+   "name": "Digital Out-of-Home (DOOH) Interactive Billboards",
+   "desc": "QR-code-enabled urban screens linking directly to social feeds.",
+   "category": "Audio, Publishing & Offline/Hybrid Touchpoints"
+  },
+  {
+   "id": "T50",
+   "name": "QR-Code Product Packaging",
+   "desc": "Physical product packaging that scans directly to AR experiences or social campaigns.",
+   "category": "Audio, Publishing & Offline/Hybrid Touchpoints"
+  }
+ ],
+ "fit": {
+  "F01": {
+   "native": [
+    "T01",
+    "T02",
+    "T03",
+    "T08"
+   ],
+   "workable": [
+    "T04",
+    "T06",
+    "T09",
+    "T10"
+   ]
+  },
+  "F02": {
+   "native": [
+    "T01",
+    "T02",
+    "T03"
+   ],
+   "workable": [
+    "T04",
+    "T06",
+    "T08",
+    "T31",
+    "T34"
+   ]
+  },
+  "F03": {
+   "native": [
+    "T05",
+    "T06"
+   ],
+   "workable": [
+    "T07",
+    "T10",
+    "T20",
+    "T44",
+    "T09",
+    "T12"
+   ]
+  },
+  "F04": {
+   "native": [
+    "T01",
+    "T02",
+    "T31"
+   ],
+   "workable": [
+    "T03",
+    "T04",
+    "T34",
+    "T08"
+   ]
+  },
+  "F05": {
+   "native": [
+    "T01",
+    "T02",
+    "T03"
+   ],
+   "workable": [
+    "T05",
+    "T07",
+    "T04",
+    "T08"
+   ]
+  },
+  "F06": {
+   "native": [
+    "T01",
+    "T02",
+    "T03",
+    "T08"
+   ],
+   "workable": [
+    "T12",
+    "T15",
+    "T16",
+    "T19",
+    "T20",
+    "T44"
+   ]
+  },
+  "F07": {
+   "native": [
+    "T01",
+    "T02",
+    "T03"
+   ],
+   "workable": [
+    "T05",
+    "T07",
+    "T32",
+    "T04",
+    "T31",
+    "T34",
+    "T37"
+   ]
+  },
+  "F08": {
+   "native": [
+    "T01",
+    "T03",
+    "T31"
+   ],
+   "workable": [
+    "T02",
+    "T04",
+    "T14"
+   ]
+  },
+  "F09": {
+   "native": [
+    "T01",
+    "T03"
+   ],
+   "workable": [
+    "T02",
+    "T04",
+    "T14",
+    "T20"
+   ]
+  },
+  "F10": {
+   "native": [
+    "T01",
+    "T02",
+    "T03"
+   ],
+   "workable": [
+    "T08"
+   ]
+  },
+  "F11": {
+   "native": [
+    "T06",
+    "T09"
+   ],
+   "workable": [
+    "T13",
+    "T11",
+    "T05",
+    "T40"
+   ]
+  },
+  "F12": {
+   "native": [
+    "T01"
+   ],
+   "workable": [
+    "T02",
+    "T03"
+   ]
+  },
+  "F13": {
+   "native": [
+    "T01",
+    "T02"
+   ],
+   "workable": [
+    "T03",
+    "T08",
+    "T46",
+    "T47",
+    "T48"
+   ]
+  },
+  "F14": {
+   "native": [
+    "T31"
+   ],
+   "workable": [
+    "T34",
+    "T21",
+    "T06"
+   ]
+  },
+  "F15": {
+   "native": [
+    "T06",
+    "T40"
+   ],
+   "workable": [
+    "T45",
+    "T11",
+    "T50",
+    "T14"
+   ]
+  },
+  "F16": {
+   "native": [
+    "T01",
+    "T02"
+   ],
+   "workable": [
+    "T03",
+    "T14",
+    "T20"
+   ]
+  },
+  "F17": {
+   "native": [
+    "T09"
+   ],
+   "workable": [
+    "T01",
+    "T06",
+    "T40",
+    "T49",
+    "T50"
+   ]
+  },
+  "F18": {
+   "native": [
+    "T06",
+    "T09"
+   ],
+   "workable": [
+    "T10",
+    "T13"
+   ]
+  },
+  "F19": {
+   "native": [
+    "T11",
+    "T24"
+   ],
+   "workable": [
+    "T21"
+   ]
+  },
+  "F20": {
+   "native": [
+    "T22"
+   ],
+   "workable": [
+    "T23",
+    "T29",
+    "T28",
+    "T30"
+   ]
+  },
+  "F21": {
+   "native": [
+    "T41",
+    "T42"
+   ],
+   "workable": [
+    "T03",
+    "T13",
+    "T43"
+   ]
+  },
+  "F22": {
+   "native": [
+    "T04",
+    "T41"
+   ],
+   "workable": [
+    "T42",
+    "T03",
+    "T02"
+   ]
+  },
+  "F23": {
+   "native": [
+    "T01",
+    "T02"
+   ],
+   "workable": [
+    "T03",
+    "T08"
+   ]
+  },
+  "F24": {
+   "native": [
+    "T04",
+    "T25"
+   ],
+   "workable": [
+    "T41",
+    "T21"
+   ]
+  },
+  "F25": {
+   "native": [
+    "T01",
+    "T02",
+    "T03"
+   ],
+   "workable": [
+    "T04",
+    "T08",
+    "T13"
+   ]
+  },
+  "F26": {
+   "native": [
+    "T13"
+   ],
+   "workable": [
+    "T11",
+    "T16",
+    "T17",
+    "T12"
+   ]
+  },
+  "F27": {
+   "native": [
+    "T04",
+    "T41"
+   ],
+   "workable": [
+    "T01"
+   ]
+  },
+  "F28": {
+   "native": [
+    "T01",
+    "T02"
+   ],
+   "workable": [
+    "T04",
+    "T41",
+    "T44"
+   ]
+  },
+  "F29": {
+   "native": [
+    "T41",
+    "T04"
+   ],
+   "workable": [
+    "T01",
+    "T42",
+    "T14"
+   ]
+  },
+  "F30": {
+   "native": [
+    "T11",
+    "T24"
+   ],
+   "workable": [
+    "T20",
+    "T21"
+   ]
+  },
+  "F31": {
+   "native": [
+    "T05"
+   ],
+   "workable": [
+    "T01",
+    "T07",
+    "T20",
+    "T44",
+    "T45"
+   ]
+  },
+  "F32": {
+   "native": [
+    "T14"
+   ],
+   "workable": [
+    "T11",
+    "T20"
+   ]
+  },
+  "F33": {
+   "native": [
+    "T01",
+    "T03"
+   ],
+   "workable": [
+    "T05",
+    "T44",
+    "T14"
+   ]
+  },
+  "F34": {
+   "native": [
+    "T01",
+    "T03"
+   ],
+   "workable": [
+    "T04",
+    "T02"
+   ]
+  },
+  "F35": {
+   "native": [
+    "T43"
+   ],
+   "workable": [
+    "T44",
+    "T45",
+    "T11",
+    "T46"
+   ]
+  },
+  "F36": {
+   "native": [
+    "T05",
+    "T07"
+   ],
+   "workable": [
+    "T20",
+    "T43"
+   ]
+  },
+  "F37": {
+   "native": [
+    "T01",
+    "T04"
+   ],
+   "workable": [
+    "T03",
+    "T14"
+   ]
+  },
+  "F38": {
+   "native": [
+    "T01",
+    "T02"
+   ],
+   "workable": [
+    "T05",
+    "T07",
+    "T44",
+    "T03"
+   ]
+  },
+  "F39": {
+   "native": [
+    "T01",
+    "T02",
+    "T07"
+   ],
+   "workable": [
+    "T03",
+    "T05"
+   ]
+  },
+  "F40": {
+   "native": [
+    "T01",
+    "T04"
+   ],
+   "workable": [
+    "T03",
+    "T14"
+   ]
+  },
+  "F41": {
+   "native": [
+    "T01",
+    "T02"
+   ],
+   "workable": [
+    "T03",
+    "T08"
+   ]
+  },
+  "F42": {
+   "native": [
+    "T04"
+   ],
+   "workable": [
+    "T43",
+    "T41"
+   ]
+  },
+  "F43": {
+   "native": [
+    "T04",
+    "T01"
+   ],
+   "workable": [
+    "T02",
+    "T03",
+    "T43",
+    "T13"
+   ]
+  },
+  "F44": {
+   "native": [
+    "T04"
+   ],
+   "workable": [
+    "T02",
+    "T03",
+    "T41"
+   ]
+  },
+  "F45": {
+   "native": [
+    "T01",
+    "T02"
+   ],
+   "workable": [
+    "T03",
+    "T08",
+    "T20"
+   ]
+  },
+  "F46": {
+   "native": [
+    "T01",
+    "T02",
+    "T03"
+   ],
+   "workable": [
+    "T07",
+    "T44",
+    "T05"
+   ]
+  },
+  "F47": {
+   "native": [
+    "T04"
+   ],
+   "workable": [
+    "T01",
+    "T22"
+   ]
+  },
+  "F48": {
+   "native": [
+    "T01",
+    "T02"
+   ],
+   "workable": [
+    "T14",
+    "T44",
+    "T13"
+   ]
+  },
+  "F49": {
+   "native": [
+    "T01",
+    "T02",
+    "T03"
+   ],
+   "workable": [
+    "T04",
+    "T49"
+   ]
+  },
+  "F50": {
+   "native": [
+    "T05",
+    "T01"
+   ],
+   "workable": [
+    "T44",
+    "T11",
+    "T07",
+    "T39",
+    "T02"
+   ]
+  }
+ },
+ "meta": {
+  "compiled": "2026-10-26",
+  "note": "Library v0. Insights from NotebookLM extraction of 36 sources plus 3 verified ThredUp additions and 4 COBRA proprietary sample points. Fit matrix is a draft by Claude for Thor's review."
+ }
+}

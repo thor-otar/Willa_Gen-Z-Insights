@@ -1,0 +1,4 @@
+# One finding per line: ID~headline~finding~key number~method and sample~year~theme
+# Rename to client_raw.txt, then rebuild. Never include names, handles or anything that identifies a participant.
+V01~Moms buy the first bag~Most first Vera Bradley bags owned by 16–20-year-olds were bought by a parent.~9 of 14~In-depth interviews, 14 US women 16–24, Nov 2026~2026~shopping
+V02~Pattern as identity~Panel respondents who own 3+ bags describe choosing patterns to match moods or eras of life.~38%~Online panel, n=600 US women 18–27, Nov 2026~2026~fashion

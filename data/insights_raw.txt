@@ -1,0 +1,103 @@
+1~Social ads drive buying decisions~Gen Z consumers are significantly more likely than older groups to find social media ads and reviews influential in purchase choices.~63%~Deloitte Insights, 2025 Digital Media Trends~2025~shopping
+2~Social media ads outpace cable relevance~A majority of Gen Z and Millennial consumers say social media ads are more relevant to them than streaming or cable ads.~54%~Deloitte Insights, 2025 Digital Media Trends~2025~digital
+3~Social content outshines traditional film and TV~Most Gen Z respondents consider social media content more relevant to their lives than traditional TV shows and movies.~56%~Deloitte Insights, 2025 Digital Media Trends~2025~formats
+4~Gen Z spends less time watching TV~Gen Z spends 26% less time watching traditional TV and movies than the average consumer per day.~26% less~Deloitte Insights, 2025 Digital Media Trends~2025~trends
+5~Instagram maintains strong adult reach~Half of US adults report using Instagram.~50%~Pew Research Center, Americans' Social Media Use 2025~2025~social
+6~TikTok usage shows multi-year growth~TikTok adoption among US adults grew from 21% in 2021 to 37% in 2025.~37%~Pew Research Center, Americans' Social Media Use 2025~2025~trends
+7~Reddit adoption expands among US adults~US adult usage of Reddit reached 26%, an 8-point increase over four years.~26%~Pew Research Center, Americans' Social Media Use 2025~2025~social
+8~Young adults stand out on Instagram~Eight in ten US adults aged 18–29 use Instagram, far higher than older age groups.~80%~Pew Research Center, Americans' Social Media Use 2025~2025~social
+9~Women lead Instagram usage~More than half of US women use Instagram compared with under half of men.~55%~Pew Research Center, Americans' Social Media Use 2025~2025~social
+10~Daily TikTok engagement among young adults~Roughly half of US 18–29-year-olds visit TikTok at least once a day.~50%~Pew Research Center, Americans' Social Media Use 2025~2025~digital
+11~Pandora gains consideration among Gen Z~Pandora led quarterly consideration growth among US Gen Z adults after its creative launch with stylist Harry Lambert.~+85.1%~YouGov, Brands Rising Among Gen Z in the US in 2026~2026~trends
+12~Johnnie Walker expands youth consideration~Johnnie Walker recorded a large relative increase in consideration among legal-drinking-age Gen Z adults.~+167.3%~YouGov, Brands Rising Among Gen Z in the US in 2026~2026~trends
+13~OpenAI consideration surges among young adults~Consideration for OpenAI among US Gen Z adults more than doubled from Q1 to Q2 2026.~22.1%~YouGov, Brands Rising Among Gen Z in the US in 2026~2026~digital
+14~Claude gains Gen Z traction~Anthropic's Claude reached 28.1% consideration among US Gen Z adults after strong quarterly growth.~28.1%~YouGov, Brands Rising Among Gen Z in the US in 2026~2026~digital
+15~Willing to pay a premium for loyalty~A majority of Gen Z say they are willing to pay extra for brands they feel loyal to.~64%~Gen Z Consumer Behavior: Key Insights for 2026 (blog)~2026~values
+16~Mobile dominates Gen Z shopping~Nearly three quarters of Gen Z prefer shopping on smartphones over any other device.~74%~Gen Z Consumer Behavior: Key Insights for 2026 (blog)~2026~shopping
+17~Three hours a day on social~Gen Z spends an average of three hours a day on social media.~3 hours/day~Gen Z Consumer Behavior: Key Insights for 2026 (blog)~2026~digital
+18~Video-sharing platforms outpace traditional media~Over four in ten Gen Z adults spend two or more hours a day on video-sharing platforms like YouTube and TikTok.~43%~Attest, Gen Z Media Consumption 2026~2026~formats
+19~Live TV abandonment~More than a third of Gen Z watch no live television at all.~38%~Attest, Gen Z Media Consumption 2026~2026~trends
+20~Streaming commands willingness to pay~Over 80% of Gen Z adults are willing to pay for streaming video subscriptions.~81%~Attest, Gen Z Media Consumption 2026~2026~shopping
+21~News subscriptions rejected~Only 6% of Gen Z are willing to pay for news and magazine subscriptions.~6%~Attest, Gen Z Media Consumption 2026~2026~values
+22~YouTube leads daily usage~YouTube is the most used platform daily among Gen Z, ahead of Instagram and TikTok.~63%~Attest, Gen Z Media Consumption 2026~2026~social
+23~TikTok as primary news source~One in four Gen Z adults names TikTok as their primary news platform.~25%~Attest, Gen Z Media Consumption 2026~2026~social
+24~Comedy and memes top short-form preference~Two thirds of Gen Z prefer comedy and memes over all other short-form video categories.~67%~Attest, Gen Z Media Consumption 2026~2026~formats
+25~Interactive beats immersive~Gen Z engages far more with interactive polls and quizzes (46%) than with VR experiences (24%); AR filters 28%.~46%~Attest, Gen Z Media Consumption 2026~2026~formats
+26~AI-generated content triggers caution~72% of Gen Z hold negative or cautious views of AI-generated content (41% dislike "AI slop", 31% wary about truth online).~72%~Attest, Gen Z Media Consumption 2026~2026~values
+27~Social shapes food and beverage buying~Over half of Gen Z say social media content influences their food and beverage purchases.~56%~Attest, Gen Z Media Consumption 2026~2026~shopping
+28~Discovery starts on mobile~Nearly three quarters of Gen Z shoppers aged 18–24 start product discovery on mobile.~73%~TGM Research, Gen Z Online Shopping Trends 2026~2026~shopping
+29~Online shopping is routine~Almost a third of Gen Z shop online two to three times a month.~31%~TGM Research, Gen Z Online Shopping Trends 2026~2026~shopping
+30~YouTube leads product discovery~70% of Gen Z use YouTube for product discovery before purchase.~70%~Goat Agency, Gen Z Social Commerce 2025~2025~shopping
+31~TikTok leads in-app purchases~TikTok is the leading platform for direct in-app purchases among Gen Z social shoppers.~40%~Goat Agency, Gen Z Social Commerce 2025~2025~shopping
+32~TikTok Shop global volume doubles~TikTok Shop global sales volume is estimated to double year over year to $66B.~$66B~Goat Agency, Gen Z Social Commerce 2025~2025~shopping
+33~Monthly social commerce spend~Gen Z spends an average of $100–200 a month via social commerce.~$100–200/month~Goat Agency, Gen Z Social Commerce 2025~2025~shopping
+34~Screen breaks as self-care~Four in ten young consumers globally take deliberate breaks from screens to manage wellbeing.~40%~Mastercard, Gen Z and Gen Alpha shift from scrolling to shaping culture~2026~values
+35~No single mainstream culture~Most Gen Z believe a single unified pop-culture mainstream no longer exists.~majority~Mastercard, Gen Z and Gen Alpha shift from scrolling to shaping culture~2026~trends
+36~AI accepted for career guidance~59% of Gen Z feel comfortable using AI chatbots for career advice.~59%~Mastercard, Gen Z and Gen Alpha shift from scrolling to shaping culture~2026~digital
+37~Gen Z sees itself as creators~Nearly two thirds of Gen Z identify as content creators building a personal brand.~65%~Mastercard, Gen Z and Gen Alpha shift from scrolling to shaping culture~2026~social
+38~Bad returns drive churn~60% of Gen Z shoppers have stopped buying from a brand after a bad return experience.~60%~Article: Gen Z is driving secondhand growth, but poor returns are costing brands loyalty~2026~shopping
+39~US resale market growth~The US secondhand apparel market is projected to reach about $78.8B by 2030.~$78.8B~Article: Gen Z is driving secondhand growth, but poor returns are costing brands loyalty~2026~fashion
+40~Gen Z leads secondhand buying~57.4% of Gen Z bought secondhand or resale apparel online in the past year.~57.4%~Article: Gen Z is driving secondhand growth, but poor returns are costing brands loyalty~2026~fashion
+41~Fast issue resolution expected~86.3% of Gen Z expect customer issues to be resolved within two to three days.~86.3%~Article: Gen Z is driving secondhand growth, but poor returns are costing brands loyalty~2026~shopping
+42~Almost all have a hobby~96% of young consumers take part in at least one regular hobby or passion.~96%~YPulse, Gen Z's 10 Biggest Hobbies~2026~trends
+43~CeraVe earned media from TikTok~CeraVe gained $30.1M in earned media value after expanding influencer work on TikTok.~$30.1M EMV~Case study: How CeraVe became a skincare staple for Gen Z influencers~2021~shopping
+44~Campus sampling drives trial~Chamberlain Coffee distributed 7,200 cans across 22 college campuses via student ambassadors.~7,200 cans~H/FC case study: Chamberlain Coffee campus sampling + UGC~2026~shopping
+45~Mainstream pop culture seen as past~91% of Gen Z respondents believe mainstream pop culture is a thing of the past.~91%~Marketing Dive, How Gen Z breaks marketing's cultural mold~2022~trends
+46~Film and TV show humanity's dark side~94% of Gen Z surveyed agree that film and TV show the dark side of humanity.~94%~Marketing Dive, How Gen Z breaks marketing's cultural mold~2022~values
+47~Gamer Girls cohort~The Gamer Girls subculture comprises over 3 million Gen Zers seeking inclusion in gaming spaces.~3.1M~Marketing Dive, How Gen Z breaks marketing's cultural mold~2022~social
+48~DMs are daily behavior~Over half of Gen Z social users send direct messages daily on platforms like Instagram.~53%~Article: How Gen Z is driving dark social trends~2025~social
+49~Notifications cause stress~61% of Gen Z say screen-time notifications cause them stress and guilt.~61%~Article: How Gen Zers Spend Their Free Time~2026~values
+50~Unplugging as a status symbol~Over a third of Gen Z see cutting back on screen time as a flex or status symbol.~37%~Article: How Gen Zers Spend Their Free Time~2026~values
+51~No hobbies is a red flag~52% of Gen Z consider having no hobbies a major romantic red flag.~52%~Article: How Gen Zers Spend Their Free Time~2026~social
+52~Tight hobby budgets~23% of Gen Z have $50 or less a month for hobbies.~23%~Article: How Gen Zers Spend Their Free Time~2026~values
+53~Poppi acquired for $2B~Poppi built cultural cachet on TikTok, ending in a $2B acquisition by PepsiCo.~$2B~Article: How poppi became Gen Z's favorite soda brand~2026~shopping
+54~More authentic online~Over a quarter of US Gen Z feel more authentically themselves online than offline.~26%~Pion, Marketing to Gen Z: Tapping Into Subcultures~2023~values
+55~Gaming as a daily activity~38% of US Gen Z say gaming is one of their primary daily activities.~38%~Pion, Marketing to Gen Z: Tapping Into Subcultures~2023~formats
+56~Gen Z buying power~Gen Z direct purchasing power is estimated at $360B.~$360B~Article: Marketing to Gen Z: Subcultures are the New Demographics~2022~shopping
+57~Five passion sectors, twelve subcultures~Industry research groups Gen Z engagement into five passion sectors and twelve subcultures.~12 subcultures~Article: Marketing to Gen Z: Subcultures are the New Demographics~2022~trends
+58~Less Google search~Gen Z uses Google search 25% less than older generations, turning to social platforms instead.~25% less~Operator's Edge: Gen Z Shifts Habits to Social Media Platforms~2025~digital
+59~Social preferred to search engines~46% of Gen Z prefer searching on social platforms rather than search engines.~46%~Operator's Edge: Gen Z Shifts Habits to Social Media Platforms~2025~digital
+60~Nike tops teen apparel~Nike remains the preferred apparel and footwear brand among US teens.~#1~Piper Sandler, 50th Semi-Annual Teen Survey~2025~fashion
+61~e.l.f. tops teen beauty~e.l.f. Cosmetics is the most preferred cosmetics brand among US teens.~#1~Piper Sandler, 50th Semi-Annual Teen Survey~2025~fashion
+62~Micro-communities express identity~63% of young adults say online micro-communities help them express their identity.~63%~LBB, Reddit and Beyond: The Rise of Niche Markets~2024~social
+63~Normal to be weird online~86% of young adults in APAC say it is normal to be weird online.~86%~LBB, Reddit and Beyond: The Rise of Niche Markets~2024~values
+64~UGG equity jump~UGG's brand equity score rose 13.5 points following its lo-fi anti-AI B-movie campaign.~+13.5 pts~Article: The brands that are winning with Gen Z in 2026~2026~fashion
+65~Free People Movement growth~Free People Movement saw a brand equity increase alongside 34% sales growth.~34% growth~Article: The brands that are winning with Gen Z in 2026~2026~fashion
+66~Owala as an emotional support badge~Owala gained brand equity by positioning its FreeSip bottle as an emotional-support badge with scarce colorways.~+7.8 equity~Article: The brands that are winning with Gen Z in 2026~2026~shopping
+67~Chipotle leads QSR consideration~Chipotle reached 78% consideration among Gen Z, leading fast-casual restaurants.~78%~Article: The brands that are winning with Gen Z in 2026~2026~shopping
+68~CeraVe grows twenty-fold~CeraVe's annual sales grew from $100M in 2017 to $2.2B in 2024, credited to organic social proof.~$2.2B~new/day studio, TikTok Brands That Went Viral (2025)~2025~shopping
+69~Liquid Death turns water into lifestyle~Liquid Death built a multi-hundred-million-dollar valuation by turning canned water into entertainment.~multi-hundred million~new/day studio, TikTok Brands That Went Viral (2025)~2025~shopping
+70~Gen Z most interested in secondhand~78% of US Gen Z adults are interested in buying secondhand apparel, the highest of any cohort.~78%~Article: Who is most interested in buying second-hand clothing in the US?~2026~fashion
+71~Women interested in secondhand~Nearly three quarters of US women are interested in buying pre-owned apparel.~74%~Article: Who is most interested in buying second-hand clothing in the US?~2026~fashion
+72~Politics affects dating~28% of Gen Z daters would cancel a date over opposing political views.~28%~Mashable, Why Gen Z is ditching mainstream dating apps~2026~values
+73~Cutting contact over values~60% of Gen Z have cut off contact with a friend or relative in the past year.~60%~Mashable, Why Gen Z is ditching mainstream dating apps~2026~values
+74~Five-plus hours of screens~Gen Z averages over five hours a day on screens, pushing many to hyper-niche spaces.~5+ hours/day~Mashable, Why Gen Z is ditching mainstream dating apps~2026~digital
+75~Personalization expected~64% of Gen Z expect personalized experiences from the brands they buy from.~64%~Article: Why mass marketing will not work on Gen Z~2022~shopping
+76~Practical skills over schooling~All Gen Z participants surveyed agreed practical skills matter more than traditional schooling.~100%~Article: Why mass marketing will not work on Gen Z~2022~values
+77~Mixed gender traits~82% of Gen Z respondents consider themselves to have both masculine and feminine traits.~82%~Article: Why mass marketing will not work on Gen Z~2022~values
+78~US resale growth rate~US secondhand apparel is projected to grow at a 7.3% CAGR, adding over $23B by 2030.~7.3% CAGR~ThredUp Resale Report 2026 (GlobalData)~2026~fashion
+79~Resale value matters when buying new~Around 60% of consumers say resale value is a consideration when buying new clothing (the report also states 67% of Gen Z consider resale value before a purchase; see I103).~60%~ThredUp Resale Report 2026 (GlobalData)~2026~fashion
+80~Closets as assets~52% of Gen Z and Millennials try to resell more than half of their closets.~52%~ThredUp Resale Report 2026 (GlobalData)~2026~fashion
+81~Secondhand first~58% of Gen Z prioritize or check secondhand before buying new clothing.~58%~ThredUp Resale Report 2026 (GlobalData)~2026~fashion
+82~Comfort with AI shopping agents~63% of Gen Z say they are comfortable with agentic AI tools managing purchases.~63%~ThredUp Resale Report 2026 (GlobalData)~2026~digital
+83~Organic feed inspires TikTok shopping~71% of TikTok shoppers get purchase inspiration from organic feed content.~71%~Britopian, TikTok Consumer Purchasing Behavior Report 2024–2025~2025~shopping
+84~Creators drive brand exploration~49% of TikTok users say creators inspire them to explore featured brands.~49%~Britopian, TikTok Consumer Purchasing Behavior Report 2024–2025~2025~social
+85~TikTok as a research tool~17% of Gen Z use TikTok specifically to research products before buying.~17%~Britopian, TikTok Consumer Purchasing Behavior Report 2024–2025~2025~shopping
+86~Impulse buying on social~55% of US TikTok users admit to impulse purchases on social platforms.~55%~Britopian, TikTok Consumer Purchasing Behavior Report 2024–2025~2025~shopping
+87~Beauty share of TikTok Shop~The source states 81% of US TikTok Shop sales volume is in beauty.~81%~Britopian, TikTok Consumer Purchasing Behavior Report 2024–2025~2025~shopping
+88~Social drives skincare purchases~55% of Gen Z women say social media led them to buy skincare.~55%~Britopian, TikTok Consumer Purchasing Behavior Report 2024–2025~2025~shopping
+89~Gen Z more likely to buy on TikTok Shop~Gen Z adults are 3.2 times more likely than the average consumer to purchase via TikTok Shop.~3.2x~Britopian, TikTok Consumer Purchasing Behavior Report 2024–2025~2025~shopping
+90~Coupons drive in-app conversion~58% of TikTok users say exclusive coupons encourage them to buy in-app.~58%~Britopian, TikTok Consumer Purchasing Behavior Report 2024–2025~2025~shopping
+91~Forum participation rising globally~Global internet users' participation in online forums and blogs grew from 72% to 76%.~76%~GWI with Reddit, The Era of We~2024~social
+92~Less daily life sharing~Internet users posting daily life details on social media fell from 27% to 20%.~20%~GWI with Reddit, The Era of We~2024~social
+93~Familiar with community hubs~77% of Gen Z and Millennials are familiar with online community forums.~77%~GWI with Reddit, The Era of We~2024~social
+94~Shared interests drive community visits~66% of online community visitors go to connect with people who share their interests.~66%~GWI with Reddit, The Era of We~2024~social
+95~Forums for honest advice~55% of forum visitors use community boards to seek honest advice from peers.~55%~GWI with Reddit, The Era of We~2024~social
+96~Forums trusted nearly like news~48% of US Gen Z trust community forums nearly as much as traditional news.~48%~GWI with Reddit, The Era of We~2024~values
+97~Forum recommendations beat trade reviews~43% of Gen Z trust forum recommendations over specialist trade-magazine reviews.~43%~GWI with Reddit, The Era of We~2024~shopping
+98~Hours on text platforms~41% of Gen Z spend over ten hours a week on text-based platforms like Discord.~41%~Rajiv Gopinath, Text-Based Platforms Reddit, Discord and Deep Engagement (blog)~2025~digital
+99~Multiple private Discord servers~87% of Gen Z Discord users belong to at least three private invite-only servers.~87%~Rajiv Gopinath, Text-Based Platforms Reddit, Discord and Deep Engagement (blog)~2025~social
+100~TikTok Shop apparel milestone~TikTok Shop US generated over $1B in apparel sales volume in 2024.~$1.01B~Research Report: 100 Gen Z Brand Winners (NotebookLM-generated)~2026~fashion
+101~Gen Z considers resale value~67% of surveyed Gen Z consider resale value before a purchase.~67%~ThredUp Resale Report 2026, via Chain Store Age~2026~fashion
+102~Gen Z shopped secondhand~62% of Gen Z shopped secondhand in 2025, shifting from big hauls to hunting specific "holy grail" pieces.~62%~ThredUp Resale Report 2026, via Chain Store Age~2026~fashion
+103~Built-in resale lifts purchase~52% of Gen Z are more likely to buy clothing when resale or trade-in is built in.~52%~ThredUp Resale Report 2026, via Chain Store Age~2026~fashion

@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Gen Z Insight Agent</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◐</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--surface:#f5f5f2;--line:#e4e4e0;--text:#141414;--muted:#6b6b66;--accent:#3b3f8f;--accent-bg:#ecedf8;
+--good:#2f6b3a;--good-bg:#e5f1e6;--bad:#9a3412;--bad-bg:#fbe9df;--unk:#6b6b66;--unk-bg:#efefec;--warn:#8a5a00;--warn-bg:#fbf0d4;
+--btn:#141414;--btn-t:#fff;--focus:#3b3f8f;--sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--mono:"JetBrains Mono",ui-monospace,Menlo,monospace;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#121315;--surface:#1c1d20;--line:#2d2e32;--text:#ecebe6;--muted:#9a9a93;--accent:#b9bcf5;--accent-bg:#262848;
+--good:#b6dfbd;--good-bg:#1f3324;--bad:#f5bfa3;--bad-bg:#3d2318;--unk:#b5b5ae;--unk-bg:#26272a;--warn:#f3d68f;--warn-bg:#3a2f12;--btn:#ecebe6;--btn-t:#121315;--focus:#b9bcf5;color-scheme:dark}}
+*,*::before,*::after{box-sizing:border-box}html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:300 16px/1.55 var(--sans);-webkit-font-smoothing:antialiased}
+button,textarea,input,select{font:inherit;color:inherit}:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.app{display:flex;flex-direction:column;height:100%;max-width:980px;margin:0 auto}
+header{display:flex;align-items:center;gap:10px;padding:calc(env(safe-area-inset-top,0px) + 10px) 16px 8px;background:var(--bg)}
+.title{flex:1;min-width:0}.title b{display:block;font-weight:500;font-size:16px;line-height:1.2}.title span{font-size:12px;color:var(--muted)}
+.hbtn{background:none;border:1px solid var(--line);border-radius:9px;padding:6px 10px;font-size:13px;cursor:pointer;white-space:nowrap}
+.hbtn .n{font-family:var(--mono);font-size:11px;background:var(--accent-bg);color:var(--accent);border-radius:5px;padding:0 5px;margin-left:4px}
+.fnbar{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;padding:4px 16px 10px;border-bottom:1px solid var(--line)}
+.fn{border:1px solid var(--line);background:var(--bg);border-radius:12px;padding:8px 10px;text-align:left;cursor:pointer}
+.fn b{display:block;font-weight:500;font-size:14px}.fn span{display:block;font-size:12px;color:var(--muted);line-height:1.35}
+.fn[aria-pressed="true"]{border-color:var(--text);box-shadow:inset 0 0 0 1px var(--text)}
+@media (max-width:560px){.fn span{display:none}.fn{text-align:center}}
+main{flex:1;overflow-y:auto;padding:18px 16px 8px}
+.welcome{max-width:62ch}.welcome h1{font-weight:500;font-size:clamp(22px,5vw,30px);line-height:1.2;margin:4px 0 8px}.welcome p{color:var(--muted);margin:0 0 12px}
+.ex{display:flex;flex-direction:column;gap:6px}.ex button{text-align:left;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:10px 12px;cursor:pointer;font-size:15px}
+.ex button:hover,.chip:hover{border-color:var(--text)}
+.msg{margin:0 0 18px}.msg.u{margin-left:auto;max-width:85%;background:var(--surface);padding:10px 14px;border-radius:16px 16px 4px 16px;white-space:pre-wrap;width:fit-content}
+.msg.u .m{display:block;font-family:var(--mono);font-size:11px;color:var(--muted);margin-bottom:2px}
+.prose{max-width:70ch}.prose h1,.prose h2,.prose h3{font-weight:500;line-height:1.3;margin:14px 0 4px;font-size:17px}
+.prose p{margin:6px 0}.prose ul,.prose ol{margin:6px 0;padding-left:22px}.prose li{margin:3px 0}.prose strong{font-weight:500}
+.ref{display:inline-block;font:500 11px var(--mono);padding:1px 5px;border-radius:5px;background:var(--accent-bg);color:var(--accent);vertical-align:1px;cursor:pointer;border:0}
+.thinking{color:var(--muted);font-size:14px}.err{background:var(--warn-bg);color:var(--warn);padding:8px 12px;border-radius:10px;font-size:14px;margin:0 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;margin-top:12px}
+.card{border:1px solid var(--line);border-radius:14px;padding:12px 13px;background:var(--bg);display:flex;flex-direction:column;gap:5px;font-size:14px}
+.card .top{display:flex;gap:6px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+.q{font:500 11px var(--mono);padding:1px 5px;border-radius:5px;border:1px solid var(--line)}
+.card .num{font-size:24px;font-weight:500;line-height:1.1;letter-spacing:-.01em}
+.card h4{margin:0;font-size:15px;font-weight:500;line-height:1.3}.card p{margin:0}.card .src{font-size:12px;color:var(--muted)}
+.card .flag{font-size:12px;background:var(--warn-bg);color:var(--warn);border-radius:8px;padding:5px 8px}
+.card .why{font-size:13px;border-left:3px solid currentColor;padding-left:8px}
+.card .acts{display:flex;gap:6px;margin-top:auto;padding-top:4px}.card .acts button{background:none;border:1px solid var(--line);border-radius:8px;padding:4px 9px;font-size:12px;cursor:pointer}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}@media (max-width:760px){.cols{grid-template-columns:1fr}}
+.col h3{font-size:13px;font-weight:500;margin:0 0 8px;padding:5px 9px;border-radius:8px;display:inline-block}
+.col.s h3{background:var(--good-bg);color:var(--good)}.col.c h3{background:var(--bad-bg);color:var(--bad)}.col.u h3{background:var(--unk-bg);color:var(--unk)}
+.col .card{margin-bottom:8px}.col.s .why{color:var(--good)}.col.c .why{color:var(--bad)}.unk{border:1px dashed var(--line);border-radius:12px;padding:10px 12px;margin-bottom:8px;font-size:14px}
+.carrier .pair{font-size:15px;font-weight:500;line-height:1.3}.carrier .x{color:var(--muted);font-weight:300}
+.fit{font:500 11px var(--mono);padding:1px 6px;border-radius:5px;background:var(--good-bg);color:var(--good)}.fit.w{background:var(--unk-bg);color:var(--unk)}
+.lbl{font-size:11px;font-family:var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-top:4px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}.chip{border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:6px 11px;font-size:13px;cursor:pointer;text-align:left}
+footer{border-top:1px solid var(--line);padding:10px 12px calc(env(safe-area-inset-bottom,0px) + 10px);background:var(--bg)}
+.composer{display:flex;gap:8px;align-items:flex-end}textarea{flex:1;resize:none;min-height:46px;max-height:180px;border:1px solid var(--line);background:var(--surface);border-radius:14px;padding:11px 14px;font-weight:400}
+.send{flex:none;height:46px;padding:0 16px;border:0;border-radius:14px;background:var(--btn);color:var(--btn-t);font-weight:500;cursor:pointer}.send:disabled{opacity:.4}
+.login{max-width:380px;margin:12vh auto 0;padding:0 20px}.login h1{font-weight:500;font-size:26px;margin:0 0 6px}.login p{color:var(--muted);margin:0 0 18px}
+.login input{width:100%;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:12px 14px;font-weight:400;margin-bottom:10px}.login .send{width:100%}
+.sheet{position:fixed;inset:0;background:var(--bg);z-index:5;display:flex;flex-direction:column}.sheet[hidden]{display:none}
+.sheet .bar{display:flex;gap:6px;align-items:center;padding:calc(env(safe-area-inset-top,0px) + 10px) 14px 10px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.sheet .bar b{font-weight:500;margin-right:auto}.sheet .body{flex:1;overflow-y:auto;padding:14px 16px calc(env(safe-area-inset-bottom,0px) + 30px);max-width:980px;width:100%;margin:0 auto}
+.tabs{display:flex;gap:4px;overflow-x:auto;border-bottom:1px solid var(--line);margin-bottom:12px}.tabs button{background:none;border:0;border-bottom:2px solid transparent;padding:8px 10px;font-weight:500;color:var(--muted);cursor:pointer;white-space:nowrap}
+.tabs button[aria-selected="true"]{color:var(--text);border-bottom-color:var(--text)}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}.filters input,.filters select{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:7px 10px;font-size:14px}
+.filters input{flex:1;min-width:160px}.count{font-size:13px;color:var(--muted);margin:0 0 8px}
+.row{border-bottom:1px solid var(--line);padding:9px 0;font-size:14px}.row b{font-weight:500}.row .d{color:var(--muted)}
+.status{font-size:13px;color:var(--muted);margin:0 0 6px;font-family:var(--mono)}
+.card.newf{border-style:dashed}.badge{font:500 11px var(--mono);padding:1px 6px;border-radius:5px;background:var(--warn-bg);color:var(--warn)}
+.card a{color:var(--accent);word-break:break-word}.ok{color:var(--good)}
+.webt{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);margin:0 2px 8px;cursor:pointer;user-select:none}.webt input{accent-color:var(--text)}
+.note{font-size:13px;color:var(--muted);margin:0 0 12px;max-width:70ch}
+</style>
+</head>
+<body>
+<div id="login" class="login" hidden>
+  <h1>Gen Z Insight Agent</h1>
+  <p>A COBRA prototype for the Vera Bradley brand team. Enter your access code.</p>
+  <input id="code" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Access code" aria-label="Access code">
+  <button class="send" id="enter">Enter</button>
+  <div id="loginErr" class="err" hidden style="margin-top:10px"></div>
+</div>
+
+<div id="app" class="app" hidden>
+  <header>
+    <div class="title"><b>Gen Z Insight Agent</b><span id="libmeta">COBRA · for Vera Bradley</span></div>
+    <button class="hbtn" id="libBtn">Library</button>
+    <button class="hbtn" id="boardBtn">Board<span class="n" id="boardN">0</span></button>
+    <button class="hbtn" id="newBtn">New</button>
+  </header>
+  <div class="fnbar" role="group" aria-label="Function">
+    <button class="fn" data-fn="explore" aria-pressed="true"><b>Explore insights</b><span>Ask anything about Gen Z</span></button>
+    <button class="fn" data-fn="idea" aria-pressed="false"><b>Test an idea</b><span>Evidence for and against</span></button>
+    <button class="fn" data-fn="carriers" aria-pressed="false"><b>Find carriers</b><span>Format × touchpoint matches</span></button>
+  </div>
+  <main id="log" aria-live="polite"></main>
+  <footer><label class="webt" id="webWrap" hidden><input type="checkbox" id="webT" checked> Allow web search when the library can't answer</label><div class="composer"><textarea id="input" rows="1" aria-label="Message"></textarea><button class="send" id="send">Send</button></div></footer>
+</div>
+
+<div class="sheet" id="lib" hidden>
+  <div class="bar"><b>Library</b><button class="hbtn" id="libClose">Close</button></div>
+  <div class="body">
+    <div class="tabs" role="tablist"><button role="tab" data-t="ins" aria-selected="true">Insights</button><button role="tab" data-t="fmt" aria-selected="false">Formats</button><button role="tab" data-t="tp" aria-selected="false">Touchpoints</button><button role="tab" data-t="fit" aria-selected="false">Carrier matrix</button></div>
+    <div id="libBody"></div>
+  </div>
+</div>
+<div class="sheet" id="board" hidden>
+  <div class="bar"><b>Board</b><button class="hbtn" id="copyBoard">Copy all</button><button class="hbtn" id="clearBoard">Clear</button><button class="hbtn" id="boardClose">Close</button></div>
+  <div class="body"><div id="boardBody"></div></div>
+</div>
+
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const FN={
+  explore:{ph:"Ask about Gen Z…",h:"What do you want to know about Gen Z?",p:"Answers come only from the insight library. Every claim links to a sourced card, and the agent says when the library can't answer.",
+    ex:["What are the most effective video formats for reaching Gen Z?","How does Gen Z think about secondhand and resale?","Where does Gen Z discover products, and where do they buy?","What are the top trending themes in pattern design?"]},
+  idea:{ph:"Describe your idea…",h:"Which idea do you want to test?",p:"The agent sorts the evidence into what supports the idea, what challenges it, and what the library can't tell you.",
+    ex:["A trade-in program: bring back an old Vera Bradley bag for credit toward a new one","Launch Vera Bradley on TikTok Shop with creator live-shopping drops","An AI-generated pattern-design tool where fans create their own print","Campus ambassadors giving away mini bags during finals week"]},
+  carriers:{ph:"Describe your idea…",h:"Which idea needs a carrier?",p:"A carrier is a content format on a touchpoint. The agent picks from 263 valid pairs in the fit matrix, not all 2,500.",
+    ex:["Mother-daughter bags: celebrating bags that get passed down","Re-releasing archive prints from the 1990s","Back-to-school: Vera Bradley as the college backpack","A repair service for old bags"]}
+};
+let code="",fn="explore",history=[],busy=false,ctl=null,LIB=null,IDX={},board=[];
+
+// ---------- markdown
+function refify(h){return h.replace(/\[((?:I\d{3}|P\d{2}|V\d{2,3}|N\d{1,2}|F\d{2}|T\d{2})(?:\s*,\s*(?:I\d{3}|P\d{2}|V\d{2,3}|N\d{1,2}|F\d{2}|T\d{2}))*)\]/g,(m,ids)=>ids.split(/\s*,\s*/).map(id=>`<button class="ref" data-id="${id}" title="${esc(IDX[id]?.headline||IDX[id]?.name||"")}">${id}</button>`).join(" "));}
+const inline=s=>refify(esc(s).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/(^|[^*\w])\*(?!\s)(.+?)\*(?!\*)/g,"$1<em>$2</em>"));
+function md(src){const L=src.replace(/\r/g,"").split("\n");let h="",st=[],para=[];
+  const fl=()=>{if(para.length){h+="<p>"+inline(para.join(" "))+"</p>";para=[];}};const cl=d=>{while(st.length>d)h+=`</${st.pop()}>`;};
+  for(const raw of L){const line=raw.replace(/\s+$/,"");let m;
+    if(!line.trim()){fl();cl(0);continue;}
+    if(m=line.match(/^#{1,4}\s+(.*)/)){fl();cl(0);h+=`<h3>${inline(m[1])}</h3>`;continue;}
+    if(/^(-{3,}|\*{3,})$/.test(line.trim())){fl();cl(0);continue;}
+    if(m=line.match(/^(\s*)([-*]|\d+[.)])\s+(.*)/)){fl();const d=Math.floor(m[1].length/2)+1,t=/\d/.test(m[2])?"ol":"ul";while(st.length<d){st.push(t);h+=`<${t}>`;}cl(d);h+=`<li>${inline(m[3])}</li>`;continue;}
+    cl(0);para.push(line.trim());}
+  fl();cl(0);return h;}
+const RS="\u001e";
+function events(raw){const parts=raw.split(RS);let text="",ev=[];parts.forEach((p,i)=>{if(i%2===1){try{ev.push(JSON.parse(p));}catch(e){}}else text+=p;});
+  if(parts.length%2===0){text=parts.slice(0,-1).filter((_,i)=>i%2===0).join("");} return{text,ev};}
+function split(text){const i=text.indexOf("<cards>");if(i<0)return{prose:text,cards:null};
+  const j=text.indexOf("</cards>",i);let cards=null;
+  if(j>0){try{cards=JSON.parse(text.slice(i+7,j).trim().replace(/^```(json)?|```$/g,""));}catch(e){cards={_bad:true};}}
+  return{prose:text.slice(0,i),cards};}
+
+// ---------- cards
+const QL={A:"A · primary research",B:"B · trade/agency",C:"C · weak source",P:"P · own sample",V:"V · client data"};
+let LOCAL={},SRC=new Set();
+function newCard(n,why){const ok=SRC.has(n.url);
+  return `<div class="card newf"><div class="top"><span class="badge">new · web</span><span class="q">${esc(n.quality||"?")}</span><span>${esc(n.date||"")}</span><span style="margin-left:auto">${esc(n.id)}</span></div>
+  ${n.number?`<div class="num">${esc(n.number)}</div>`:""}<h4>${esc(n.headline)}</h4><p>${esc(n.finding)}</p>${why?`<div class="why">${esc(why)}</div>`:""}
+  <div class="src">${esc(n.source)}${n.scope?` · ${esc(n.scope)}`:""}</div>
+  ${n.url?`<div class="src"><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.url.replace(/^https?:\/\//,"").slice(0,70))}</a> ${ok?'<span class="ok">✓ retrieved</span>':""}</div>`:""}
+  ${ok?"":`<div class="flag">⚠ This link wasn't among the retrieved search results. Verify before use.</div>`}
+  <div class="flag">Not yet reviewed by COBRA. Check the source before quoting.</div>
+  <div class="acts"><button data-save="new" data-nid="${esc(n.id)}">Propose for library</button></div></div>`;}
+function insightCard(id,why,cls){if(LOCAL[id])return newCard(LOCAL[id],why);const x=IDX[id];if(!x)return"";
+  return `<div class="card"><div class="top"><span class="q" title="${QL[x.quality]}">${x.quality}</span><span>${esc(x.theme)}</span><span>· ${x.year}</span><span style="margin-left:auto">${x.id}</span></div>
+  ${x.number&&x.number!=="majority"?`<div class="num">${esc(x.number)}</div>`:""}<h4>${esc(x.headline)}</h4><p>${esc(x.finding)}</p>
+  ${why?`<div class="why">${esc(why)}</div>`:""}<div class="src">${esc(x.source)}</div>${x.flag?`<div class="flag">⚠ ${esc(x.flag)}</div>`:""}
+  <div class="acts"><button data-save="ins" data-id="${x.id}" data-why="${esc(why||"")}">Save</button><button data-ask="${x.id}">Test an idea with this</button></div></div>`;}
+function carrierCard(c,i){const f=IDX[c.format],t=IDX[c.touchpoint];if(!f||!t)return"";
+  const ins=(c.insights||[]).filter(id=>IDX[id]||LOCAL[id]);const m=LIB.fit[c.format]||{native:[],workable:[]};
+  const real=m.native.includes(c.touchpoint)?"native":m.workable.includes(c.touchpoint)?"workable":"off";
+  return `<div class="card carrier"><div class="top"><span class="fit ${real==="native"?"":"w"}">${real==="native"?"native fit":real==="workable"?"workable":"not in matrix"}</span><span style="margin-left:auto">${f.id} × ${t.id}</span></div>
+  <div class="pair">${esc(f.name)} <span class="x">on</span> ${esc(t.name)}</div>
+  <div class="lbl">Execution</div><p>${esc(c.execution)}</p><div class="lbl">Why</div><p>${esc(c.why)}</p>
+  ${ins.length?`<div class="lbl">Evidence</div><p>${ins.map(id=>`<button class="ref" data-id="${id}">${id}</button> ${esc((IDX[id]||LOCAL[id]).headline)}`).join("<br>")}</p>`:""}
+  ${c.risk?`<div class="lbl">Risk</div><p>${esc(c.risk)}</p>`:""}${f.metric?`<div class="src">Success metric: ${esc(f.metric)}</div>`:""}${real==="off"?`<div class="flag">⚠ This pair isn't in the fit matrix. Treat as a proposal to review.</div>`:""}${t.vb_fit?`<div class="flag">⚠ Touchpoint marked low fit for Vera Bradley.</div>`:""}
+  <div class="acts"><button data-save="car" data-i="${i}">Save</button></div></div>`;}
+function renderCards(el,cards,f){
+  if(!cards)return;LOCAL={};(cards.new||[]).forEach(n=>{if(n&&n.id)LOCAL[n.id]=n;});if(cards._bad){el.insertAdjacentHTML("beforeend",`<div class="err">The cards didn't come through cleanly. Ask again to regenerate them.</div>`);return;}
+  let h="";
+  if(f==="explore"&&cards.insights?.length)h+=`<div class="grid">${cards.insights.map(id=>insightCard(id)).join("")}</div>`;
+  if(f==="idea"){const col=(cls,title,arr)=>`<div class="col ${cls}"><h3>${title}</h3>${(arr||[]).map(s=>insightCard(s.id,s.why)).join("")||`<p class="thinking">None found in the library.</p>`}</div>`;
+    h+=`<div class="cols">${col("s","Supports",cards.supports)}${col("c","Challenges",cards.challenges)}<div class="col u"><h3>Unknown</h3>${(cards.unknowns||[]).map(u=>`<div class="unk">${esc(u)}</div>`).join("")||`<p class="thinking">Nothing flagged.</p>`}</div></div>`;}
+  if(f==="carriers"&&cards.carriers?.length){el._carriers=cards.carriers;h+=`<div class="grid">${cards.carriers.map((c,i)=>carrierCard(c,i)).join("")}</div>`;}
+  if(cards.new?.length&&f==="explore")h+=`<div class="grid">${cards.new.map(n=>newCard(n)).join("")}</div>`;
+  if(cards.new?.length&&f!=="explore"){const used=new Set(JSON.stringify(cards).match(/N\d{1,2}/g));h+=`<p class="note" style="margin-top:12px">New web findings used above: ${cards.new.map(n=>esc(n.id)).join(", ")}. Source links are on each card.</p>`;}
+  el._new=cards.new||[];
+  if(cards.followups?.length)h+=`<div class="chips">${cards.followups.slice(0,3).map(q=>`<button class="chip" data-follow="${esc(q)}">${esc(q)}</button>`).join("")}</div>`;
+  el.insertAdjacentHTML("beforeend",h);}
+
+// ---------- auth
+async function api(body,signal){return fetch("/api/chat",{method:"POST",signal,headers:{"content-type":"application/json"},body:JSON.stringify(body)});}
+async function check(c){const r=await api({code:c,check:true});if(!r.ok){const j=await r.json().catch(()=>({}));throw new Error(j.error||"Couldn't check the code.");}return r.json();}
+async function enter(){const c=$("#code").value.trim();if(!c)return;$("#enter").disabled=true;$("#loginErr").hidden=true;
+  try{const j=await check(c);SEARCH=j.search!==false;code=c;try{localStorage.setItem("gz-code",c);}catch(e){}await start();}catch(e){$("#loginErr").textContent=e.message;$("#loginErr").hidden=false;}finally{$("#enter").disabled=false;}}
+$("#enter").onclick=enter;$("#code").addEventListener("keydown",e=>{if(e.key==="Enter")enter();});
+let SEARCH=true;async function start(){$("#webWrap").hidden=!SEARCH;try{$("#webT").checked=localStorage.getItem("gz-web")!=="off";}catch(e){}
+  $("#webT").onchange=()=>{try{localStorage.setItem("gz-web",$("#webT").checked?"on":"off");}catch(e){}};
+  try{LIB=await (await fetch("/library.json")).json();}catch(e){LIB={insights:[],formats:[],touchpoints:[],fit:{}};}
+  [...LIB.insights,...LIB.formats,...LIB.touchpoints].forEach(x=>IDX[x.id]=x);
+  $("#libmeta").textContent=`COBRA · for Vera Bradley · ${LIB.insights.length} insights`;
+  try{history=JSON.parse(sessionStorage.getItem("gz-hist")||"[]");}catch(e){history=[];}
+  try{board=JSON.parse(localStorage.getItem("gz-board")||"[]");}catch(e){board=[];}
+  $("#login").hidden=true;$("#app").hidden=false;setFn(sessionStorage.getItem("gz-fn")||"explore",true);renderBoardN();}
+
+// ---------- function switch
+function setFn(f,keep){fn=f;try{sessionStorage.setItem("gz-fn",f);}catch(e){}
+  document.querySelectorAll(".fn").forEach(b=>b.setAttribute("aria-pressed",b.dataset.fn===f));$("#input").placeholder=FN[f].ph;
+  if(!keep&&history.length){history=[];save();}render();$("#input").focus();}
+document.querySelectorAll(".fn").forEach(b=>b.onclick=()=>{if(b.dataset.fn!==fn)setFn(b.dataset.fn);});
+function save(){try{sessionStorage.setItem("gz-hist",JSON.stringify(history));}catch(e){}}
+function render(){const log=$("#log");log.innerHTML="";
+  if(!history.length){const F=FN[fn];log.innerHTML=`<div class="welcome"><h1>${F.h}</h1><p>${F.p}</p><div class="ex">${F.ex.map(e=>`<button data-ex="${esc(e)}">${esc(e)}</button>`).join("")}</div></div>`;return;}
+  for(const m of history){if(m.role==="user"){log.insertAdjacentHTML("beforeend",`<div class="msg u"><span class="m">${esc(LABEL[m.fn]||"")}</span>${esc(m.content)}</div>`);}
+    else{const d=document.createElement("div");d.className="msg";SRC=new Set(m.sources||[]);const {prose,cards}=split(m.content);d.innerHTML=(m.searched?.length?`<p class="status">Searched the web: ${m.searched.map(q=>"“"+esc(q)+"”").join(", ")}</p>`:"")+`<div class="prose">${md(prose)}</div>`;renderCards(d,cards,m.fn);log.append(d);}}
+  log.scrollTop=log.scrollHeight;}
+const LABEL={explore:"Explore insights",idea:"Test an idea",carriers:"Find carriers"};
+
+// ---------- send
+async function send(textArg){
+  if(busy){ctl?.abort();return;}const text=(textArg??$("#input").value).trim();if(!text)return;
+  history.push({role:"user",content:text,fn});save();render();$("#input").value="";autosize();
+  const d=document.createElement("div");d.className="msg";d.innerHTML=`<p class="thinking">Searching the library…</p>`;$("#log").append(d);$("#log").scrollTop=$("#log").scrollHeight;
+  busy=true;$("#send").textContent="Stop";ctl=new AbortController();let out="";const f=fn;
+  try{const r=await api({code,mode:f,web:$("#webT").checked,messages:history.map(({role,content})=>({role,content}))},ctl.signal);
+    if(!r.ok){const j=await r.json().catch(()=>({}));if(r.status===401){try{localStorage.removeItem("gz-code");}catch(e){}location.reload();return;}throw new Error(j.error||"The agent couldn't answer. Send again.");}
+    const rd=r.body.getReader(),dec=new TextDecoder();
+    let raw="",searched=[],sources=[],status="",incomplete=false;
+    while(true){const {value,done}=await rd.read();if(done)break;raw+=dec.decode(value,{stream:true});
+      const E=events(raw);out=E.text;searched=[];
+      for(const e of E.ev){if(e.event==="search"&&e.query){searched.push(e.query);status=`Searching the web: “${e.query}”…`;}
+        else if(e.event==="results")status=`Reading ${e.n} results…`;else if(e.event==="search_error")status="A web search failed; continuing with the library.";
+        else if(e.event==="sources")sources=e.urls.map(u=>u.url);else if(e.event==="incomplete")incomplete=true;}
+      const p=split(out).prose;d.innerHTML=(status&&!p.trim()?`<p class="status">${esc(status)}</p>`:(searched.length?`<p class="status">Searched the web: ${searched.map(q=>"“"+esc(q)+"”").join(", ")}</p>`:""))+`<div class="prose">${md(p)}</div>`+(out.includes("<cards>")?`<p class="thinking">Building cards…</p>`:"");
+      const log=$("#log");if(log.scrollHeight-log.scrollTop-log.clientHeight<160)log.scrollTop=log.scrollHeight;}
+    if(!out.trim())throw new Error("No answer came back. Send again.");
+    history.push({role:"assistant",content:out,fn:f,sources,searched});save();render();
+    if(incomplete)$("#log").insertAdjacentHTML("beforeend",`<div class="err">The answer was cut short. Ask the agent to continue.</div>`);
+  }catch(e){if(e.name==="AbortError"){if(out.trim()){history.push({role:"assistant",content:split(out).prose+"\n\n*(stopped)*",fn:f});}else history.pop();save();render();}
+    else{if(!out.trim())history.pop();else history.push({role:"assistant",content:out,fn:f});save();render();$("#log").insertAdjacentHTML("beforeend",`<div class="err">${esc(e.message)}</div>`);}}
+  finally{busy=false;$("#send").textContent="Send";}}
+$("#send").onclick=()=>send();
+$("#input").addEventListener("keydown",e=>{if(e.key==="Enter"&&!e.shiftKey&&!e.isComposing&&matchMedia("(pointer:fine)").matches){e.preventDefault();send();}});
+function autosize(){const t=$("#input");t.style.height="auto";t.style.height=Math.min(t.scrollHeight,180)+"px";}$("#input").addEventListener("input",autosize);
+$("#newBtn").onclick=()=>{if(busy)ctl?.abort();history=[];save();render();};
+
+// ---------- delegated clicks
+document.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;
+  if(b.dataset.ex){$("#input").value=b.dataset.ex;autosize();$("#input").focus();}
+  else if(b.dataset.follow){send(b.dataset.follow);}
+  else if(b.dataset.ask){const x=IDX[b.dataset.ask];setFn("idea");$("#input").value=`Idea built on ${x.id} (${x.headline}): `;autosize();$("#input").focus();}
+  else if(b.classList.contains("ref")&&b.dataset.id){openLib(b.dataset.id);}
+  else if(b.dataset.save==="ins"){addBoard({type:"insight",id:b.dataset.id,why:b.dataset.why});b.textContent="Saved";b.disabled=true;}
+  else if(b.dataset.save==="new"){const host=b.closest(".msg");const n=(host?._new||[]).find(x=>x.id===b.dataset.nid);if(n){addBoard({type:"new",...n,verified:SRC.has(n.url)});b.textContent="Proposed";b.disabled=true;}}
+  else if(b.dataset.save==="car"){const host=b.closest(".msg");const c=host?._carriers?.[+b.dataset.i]||findCarrier(b);if(c){addBoard({type:"carrier",...c});b.textContent="Saved";b.disabled=true;}}
+});
+function findCarrier(b){const msgs=[...document.querySelectorAll("#log .msg")];const host=b.closest(".msg");const i=msgs.indexOf(host);
+  const assistants=history.filter(()=>true);let k=-1,m=null;for(const h of history){k++;if(k===i&&h.role==="assistant")m=h;}
+  return m?split(m.content).cards?.carriers?.[+b.dataset.i]:null;}
+
+// ---------- board
+function renderBoardN(){$("#boardN").textContent=board.length;}
+function addBoard(item){board.push(item);try{localStorage.setItem("gz-board",JSON.stringify(board));}catch(e){}renderBoardN();}
+function boardText(){return board.map((it,i)=>{if(it.type==="insight"){const x=IDX[it.id];return x?`${i+1}. [${x.id}, ${x.quality}] ${x.headline}: ${x.finding} (${x.number}; ${x.source}, ${x.year})${it.why?` Note: ${it.why}`:""}`:"";}
+  if(it.type==="new")return `${i+1}. PROPOSED NEW INSIGHT (web, unreviewed): ${it.headline}: ${it.finding} (${it.number||"no figure"}; ${it.source}, ${it.date}; quality ${it.quality}; scope ${it.scope}) ${it.url}`;
+  const f=IDX[it.format],t=IDX[it.touchpoint];return `${i+1}. Carrier: ${f?.name} on ${t?.name} (${it.fit}). ${it.execution} Why: ${it.why}${it.risk?` Risk: ${it.risk}`:""}`;}).join("\n\n");}
+$("#boardBtn").onclick=()=>{const h=board.map((it,i)=>it.type==="insight"?insightCard(it.id,it.why):it.type==="new"?newCard(it):carrierCard(it,i)).join("");
+  $("#boardBody").innerHTML=board.length?`<div class="grid">${h}</div>`:`<p class="note">Nothing saved yet. Use Save on any insight or carrier card.</p>`;
+  $("#boardBody").querySelectorAll("[data-save]").forEach(b=>b.remove());$("#board").hidden=false;};
+$("#boardClose").onclick=()=>$("#board").hidden=true;
+$("#copyBoard").onclick=async()=>{try{await navigator.clipboard.writeText(boardText());$("#copyBoard").textContent="Copied";setTimeout(()=>$("#copyBoard").textContent="Copy all",1500);}catch(e){$("#copyBoard").textContent="Copy failed";}};
+$("#clearBoard").onclick=()=>{board=[];try{localStorage.setItem("gz-board","[]");}catch(e){}renderBoardN();$("#boardBody").innerHTML=`<p class="note">Board cleared.</p>`;};
+
+// ---------- library
+let libTab="ins",libFocus=null;
+function openLib(id){libFocus=id||null;if(id){libTab=id[0]==="F"?"fmt":id[0]==="T"?"tp":"ins";}
+  document.querySelectorAll("#lib .tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.t===libTab));$("#lib").hidden=false;drawLib();}
+$("#libBtn").onclick=()=>openLib();$("#libClose").onclick=()=>$("#lib").hidden=true;
+document.querySelectorAll("#lib .tabs button").forEach(b=>b.onclick=()=>{libTab=b.dataset.t;libFocus=null;document.querySelectorAll("#lib .tabs button").forEach(x=>x.setAttribute("aria-selected",x===b));drawLib();});
+function drawLib(){const el=$("#libBody");
+  if(libTab==="ins"){const themes=[...new Set(LIB.insights.map(x=>x.theme))].sort();
+    el.innerHTML=`<p class="note">${esc(LIB.meta?.note||"")} Quality: A primary research · B trade/agency · C weak source · P COBRA's own sample. ⚠ marks known issues.</p>
+    <div class="filters"><input id="fq" placeholder="Search insights" value="${libFocus&&libFocus.match(/^[IP]/)?libFocus:""}"><select id="ft"><option value="">All themes</option>${themes.map(t=>`<option>${t}</option>`).join("")}</select><select id="fql"><option value="">All quality</option><option>A</option><option>B</option><option>C</option><option>P</option></select></div><p class="count" id="fc"></p><div class="grid" id="fg"></div>`;
+    const draw=()=>{const q=$("#fq").value.toLowerCase(),t=$("#ft").value,ql=$("#fql").value;
+      const xs=LIB.insights.filter(x=>(!t||x.theme===t)&&(!ql||x.quality===ql)&&(!q||(x.id+" "+x.headline+" "+x.finding+" "+x.source).toLowerCase().includes(q)));
+      $("#fc").textContent=`${xs.length} of ${LIB.insights.length}`;$("#fg").innerHTML=xs.map(x=>insightCard(x.id)).join("");};
+    ["fq","ft","fql"].forEach(i=>$("#"+i).oninput=draw);draw();}
+  if(libTab==="fmt"){el.innerHTML=LIB.formats.map(f=>`<div class="row" ${f.id===libFocus?'style="background:var(--accent-bg)"':""}><b>${f.id} ${esc(f.name)}</b> <span class="d">· ${esc(f.category)}</span><br>${esc(f.desc)}${f.metric?`<br><span class="d">Metric: ${esc(f.metric)}</span>`:""}</div>`).join("");}
+  if(libTab==="tp"){el.innerHTML=LIB.touchpoints.map(t=>`<div class="row" ${t.id===libFocus?'style="background:var(--accent-bg)"':""}><b>${t.id} ${esc(t.name)}</b> <span class="d">· ${esc(t.category)}${t.vb_fit?" · low fit for Vera Bradley":""}</span><br>${esc(t.desc)}</div>`).join("");}
+  if(libTab==="fit"){const n=Object.values(LIB.fit).reduce((a,v)=>a+v.native.length+v.workable.length,0);
+    el.innerHTML=`<p class="note">Draft matrix: ${n} valid carriers out of 2,500 possible format × touchpoint pairs. Native = the format's home; workable = works with adaptation. Pending COBRA review.</p>`+
+    LIB.formats.map(f=>{const v=LIB.fit[f.id]||{native:[],workable:[]};const nm=id=>esc(IDX[id]?.name||id);
+      return `<div class="row"><b>${f.id} ${esc(f.name)}</b><br><span class="fit">native</span> ${v.native.map(nm).join(" · ")}<br><span class="fit w">workable</span> ${v.workable.map(nm).join(" · ")}</div>`;}).join("");}
+  if(libFocus){const t=el.querySelector('[style*="accent-bg"]');t?.scrollIntoView({block:"center"});}}
+
+// ---------- boot
+(async()=>{let s="";try{s=localStorage.getItem("gz-code")||"";}catch(e){}
+  if(s){try{const j=await check(s);SEARCH=j.search!==false;code=s;await start();return;}catch(e){try{localStorage.removeItem("gz-code");}catch(_){}}}
+  $("#login").hidden=false;$("#code").focus();})();
+</script>
+</body>
+</html>
